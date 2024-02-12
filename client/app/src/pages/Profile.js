@@ -131,9 +131,7 @@ function Profile() {
               changeDetails && onSubmit();
               setChangeDetails((prevState) => !prevState);
             }}
-          >
-            {changeDetails ? "done" : "change"}
-          </p>
+          ></p>
         </div>
 
         <div className="profileCard">
