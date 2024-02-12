@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const userRoutes = require("./routes/authRoutes"); // Assuming your user routes are in userRoutes file
 const groupRoutes = require("./routes/groupRoutes"); // Assuming your group routes are in groupRoutes file
 const cookieParser = require("cookie-parser");
-const { requireAuth, checkUser, authRole } = require("./middleware/auth");
 const path = require("path");
+const cors = require("cors");
 
 const app = express();
 const port = process.env.PORT || 3000; // Fallback to 3000 if PORT environment variable is not set
@@ -17,6 +17,7 @@ app.use(express.static(publicDirectory));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
+app.use(cors());
 
 // Database connection
 const dbURI = process.env.MONGODB_URL;

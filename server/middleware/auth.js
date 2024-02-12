@@ -3,18 +3,22 @@ const User = require("../model/User");
 
 const requireAuth = (req, res, next) => {
   try {
-    console.log("checking auth");
-    const token = req.cookies.jwt;
-    //check if webtoken exists
-    if (!token) {
-      return res.redirect("/login");
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return res
+        .status(401)
+        .json({ message: "Unauthorized: Missing or invalid token" });
     }
+    const token = authHeader.split(" ")[1];
+
+    // Verify the JWT token
     jwt.verify(token, process.env.JWT_SECRET, (err, decodedToken) => {
       if (err) {
-        console.log(err.message);
-        return res.redirect("/login");
+        console.error("JWT verification failed:", err.message);
+        return res.status(401).json({ message: "Unauthorized: Invalid token" });
       }
-      console.log(token);
+
+      req.user = decodedToken;
       next();
     });
   } catch (e) {

@@ -1,521 +1,343 @@
-const bibleVerses = [
+const galatiansVerses = [
   {
+    quizId: "galatians-1",
     id: "1",
     verses:
-      "1 Timothy 1:1-10 - Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope, To Timothy my true son in the faith: Grace, mercy and peace from God the Father and Christ Jesus our Lord. As I urged you when I went into Macedonia, stay there in Ephesus so that you may command certain people not to teach false doctrines any longer or to devote themselves to myths and endless genealogies. Such things promote controversial speculations rather than advancing God’s work—which is by faith. The goal of this command is love, which comes from a pure heart and a good conscience and a sincere faith. They want to be teachers of the law, but they do not know what they are talking about or what they so confidently affirm. We know that the law is good if one uses it properly. We also know that the law is made not for the righteous but for lawbreakers and rebels, the ungodly and sinful, the unholy and irreligious, for those who kill their fathers or mothers, for murderers, for the sexually immoral, for those practicing homosexuality, for slave traders and liars and perjurers—and for whatever else is contrary to the sound doctrine that conforms to the gospel concerning the glory of the blessed God, which he entrusted to me.",
+      "Galatians 1:1-17 - Paul, an apostle—sent not from men nor by a man, but by Jesus Christ and God the Father, who raised him from the dead— and all the brothers and sisters with me, To the churches in Galatia: Grace and peace to you from God our Father and the Lord Jesus Christ, who gave himself for our sins to rescue us from the present evil age, according to the will of our God and Father, to whom be glory for ever and ever. Amen. I am astonished that you are so quickly deserting the one who called you to live in the grace of Christ and are turning to a different gospel— which is really no gospel at all. Evidently some people are throwing you into confusion and are trying to pervert the gospel of Christ. But even if we or an angel from heaven should preach a gospel other than the one we preached to you, let them be under God’s curse! As we have already said, so now I say again: If anybody is preaching to you a gospel other than what you accepted, let them be under God’s curse! Am I now trying to win the approval of human beings, or of God? Or am I trying to please people? If I were still trying to please people, I would not be a servant of Christ. I want you to know, brothers and sisters, that the gospel I preached is not of human origin. I did not receive it from any man, nor was I taught it; rather, I received it by revelation from Jesus Christ. For you have heard of my previous way of life in Judaism, how intensely I persecuted the church of God and tried to destroy it. I was advancing in Judaism beyond many of my own age among my people and was extremely zealous for the traditions of my fathers. But when God, who set me apart from my mother’s womb and called me by his grace, was pleased to reveal his Son in me so that I might preach him among the Gentiles, my immediate response was not to consult any human being. I did not go up to Jerusalem to see those who were apostles before I was, but I went into Arabia. Later I returned to Damascus.",
     question: [
       {
-        question: "What is the goal of the command mentioned here?",
+        question: "Who sent Paul as an apostle according to verse 1?",
         options: [
-          "a. To promote controversial speculations",
-          "b. To advance God's work",
-          "c. To love sincerely",
-          "d. To teach false doctrines",
+          "a. Men",
+          "b. By Jesus Christ and God the Father",
+          "c. By a man",
+          "d. By the churches in Galatia",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What did Jesus Christ give himself for?",
+        options: [
+          "a. To gain power",
+          "b. To rescue us from the present evil age",
+          "c. To establish a kingdom",
+          "d. To please men",
+        ],
+        answer: "b",
+      },
+      {
+        question: "From whom does grace and peace come?",
+        options: [
+          "a. From the churches in Galatia",
+          "b. From men",
+          "c. From Jesus Christ and God our Father",
+          "d. From Paul",
         ],
         answer: "c",
       },
       {
-        question: "What is the significance of the law?",
+        question: "What is Paul astonished about?",
         options: [
-          "a. To restrict the godly",
-          "b. To condemn the righteous",
-          "c. To identify lawbreakers",
-          "d. To please God",
-        ],
-        answer: "c",
-      },
-      {
-        question: "What is the purpose of mentioning specific sinful acts?",
-        options: [
-          "a. To justify the law",
-          "b. To condemn the righteous",
-          "c. To highlight the need for grace",
-          "d. To praise lawbreakers",
-        ],
-        answer: "c",
-      },
-      {
-        question: "Who is the law made for?",
-        options: [
-          "a. The righteous",
-          "b. Lawbreakers and rebels",
-          "c. The godly",
-          "d. The humble",
+          "a. The churches in Galatia",
+          "b. The gospel they are turning to",
+          "c. His own preaching",
+          "d. The traditions of Judaism",
         ],
         answer: "b",
       },
     ],
   },
   {
+    quizId: "galatians-2",
     id: "2",
     verses:
-      "1 Timothy 1:10-20 - for the sexually immoral, for those practicing homosexuality, for slave traders and liars and perjurers—and for whatever else is contrary to the sound doctrine that conforms to the gospel concerning the glory of the blessed God, which he entrusted to me. The grace of our Lord was poured out on me abundantly, along with the faith and love that are in Christ Jesus. Here is a trustworthy saying that deserves full acceptance: Christ Jesus came into the world to save sinners—of whom I am the worst. But for that very reason I was shown mercy so that in me, the worst of sinners, Christ Jesus might display his immense patience as an example for those who would believe in him and receive eternal life. Now to the King eternal, immortal, invisible, the only God, be honor and glory for ever and ever. Amen.",
+      "Galatians 1:18-2:10 - Then after three years, I went up to Jerusalem to get acquainted with Cephas and stayed with him fifteen days. I saw none of the other apostles—only James, the Lord’s brother. I assure you before God that what I am writing you is no lie. Then I went to Syria and Cilicia. I was personally unknown to the churches of Judea that are in Christ. They only heard the report: “The man who formerly persecuted us is now preaching the faith he once tried to destroy.” And they praised God because of me. Then after fourteen years, I went up again to Jerusalem, this time with Barnabas. I took Titus along also. I went in response to a revelation and, meeting privately with those esteemed as leaders, I presented to them the gospel that I preach among the Gentiles. I wanted to be sure I was not running and had not been running my race in vain. Yet not even Titus, who was with me, was compelled to be circumcised, even though he was a Greek. This matter arose because some false believers had infiltrated our ranks to spy on the freedom we have in Christ Jesus and to make us slaves. We did not give in to them for a moment, so that the truth of the gospel might be preserved for you. As for those who were held in high esteem—whatever they were makes no difference to me; God does not show favoritism—they added nothing to my message. On the contrary, they recognized that I had been entrusted with the task of preaching the gospel to the uncircumcised, just as Peter had been to the circumcised. For God, who was at work in Peter as an apostle to the circumcised, was also at work in me as an apostle to the Gentiles. James, Cephas and John, those esteemed as pillars, gave me and Barnabas the right hand of fellowship when they recognized the grace given to me. They agreed that we should go to the Gentiles, and they to the circumcised. All they asked was that we should continue to remember the poor, the very thing I had been eager to do all along.",
     question: [
       {
-        question: "What is the saying that deserves full acceptance?",
+        question: "Who did Paul go to see in Jerusalem according to verse 18?",
         options: [
-          "a. Christ Jesus came to condemn the world",
-          "b. Christ Jesus came to save sinners",
-          "c. Christ Jesus came to judge the lawless",
-          "d. Christ Jesus came to establish doctrine",
-        ],
-        answer: "b",
-      },
-      {
-        question: "Why was mercy shown to the author?",
-        options: [
-          "a. To display patience",
-          "b. To condemn sinners",
-          "c. To boast about salvation",
-          "d. To display power",
+          "a. Peter and James",
+          "b. Peter and John",
+          "c. Peter and Barnabas",
+          "d. James and John",
         ],
         answer: "a",
       },
       {
-        question: "What is the attribute attributed to the King?",
-        options: ["a. Visible", "b. Immortal", "c. Mortal", "d. Time-bound"],
+        question: "What did Paul do in Syria and Cilicia?",
+        options: [
+          "a. He preached to the churches",
+          "b. He met with the other apostles",
+          "c. He stayed with Cephas",
+          "d. He was personally unknown",
+        ],
+        answer: "a",
+      },
+      {
+        question: "Why did Paul go up to Jerusalem the second time?",
+        options: [
+          "a. To confront false believers",
+          "b. In response to a revelation",
+          "c. To meet with leaders",
+          "d. To find Titus",
+        ],
         answer: "b",
       },
-
       {
-        question: "What attribute is given to the King in the verse?",
-        options: ["a. Invisible", "b. Mortal", "c. Eternal", "d. Immortal"],
-        answer: "d",
+        question: "What did the esteemed leaders recognize about Paul?",
+        options: [
+          "a. His authority",
+          "b. His message",
+          "c. His race",
+          "d. His background",
+        ],
+        answer: "b",
       },
     ],
   },
-
   {
+    quizId: "galatians-3",
     id: "3",
     verses:
-      "2 Timothy 2:1-10 - You then, my son, be strong in the grace that is in Christ Jesus. And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others. Join with me in suffering, like a good soldier of Christ Jesus. No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer. Similarly, anyone who competes as an athlete does not receive the victor’s crown except by competing according to the rules. The hardworking farmer should be the first to receive a share of the crops. Reflect on what I am saying, for the Lord will give you insight into all this. Remember Jesus Christ, raised from the dead, descended from David. This is my gospel, for which I am suffering even to the point of being chained like a criminal. But God’s word is not chained. Therefore I endure everything for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
+      "Galatians 2:11-21 - When Cephas came to Antioch, I opposed him to his face, because he stood condemned. For before certain men came from James, he used to eat with the Gentiles. But when they arrived, he began to draw back and separate himself from the Gentiles because he was afraid of those who belonged to the circumcision group. The other Jews joined him in his hypocrisy, so that by their hypocrisy even Barnabas was led astray. When I saw that they were not acting in line with the truth of the gospel, I said to Cephas in front of them all, “You are a Jew, yet you live like a Gentile and not like a Jew. How is it, then, that you force Gentiles to follow Jewish customs? “We who are Jews by birth and not sinful Gentiles know that a person is not justified by the works of the law, but by faith in Jesus Christ. So we, too, have put our faith in Christ Jesus that we may be justified by faith in Christ and not by the works of the law, because by the works of the law no one will be justified. “But if, in seeking to be justified in Christ, we Jews find ourselves also among the sinners, doesn’t that mean that Christ promotes sin? Absolutely not! If I rebuild what I destroyed, then I really would be a lawbreaker. “For through the law I died to the law so that I might live for God. I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me. I do not set aside the grace of God, for if righteousness could be gained through the law, Christ died for nothing!”",
     question: [
       {
-        question: "What should a good soldier of Christ Jesus avoid?",
+        question: "Why did Paul oppose Cephas according to verse 11?",
         options: [
-          "a. Civilian affairs",
-          "b. Teaching others",
-          "c. Entangling in worldly matters",
-          "d. Following rules",
+          "a. Cephas was condemned",
+          "b. Cephas opposed Paul",
+          "c. Cephas drew back from the Gentiles",
+          "d. Cephas lived like a Gentile",
         ],
-        answer: "a",
+        answer: "c",
       },
       {
-        question: "Who should receive the first share of crops?",
+        question: "How did Paul say a person is justified?",
         options: [
-          "a. The hardworking farmer",
-          "b. The soldier",
-          "c. The athlete",
-          "d. The commander",
-        ],
-        answer: "a",
-      },
-      {
-        question: "What is the gospel the speaker is suffering for?",
-        options: [
-          "a. The gospel of prosperity",
-          "b. The gospel of salvation in Christ Jesus",
-          "c. The gospel of earthly success",
-          "d. The gospel of political power",
+          "a. By the works of the law",
+          "b. By faith in Jesus Christ",
+          "c. By following Jewish customs",
+          "d. By being a Jew",
         ],
         answer: "b",
       },
       {
-        question: "What does the speaker say God's word is not?",
-        options: ["a. Free", "b. Restricted", "c. Chained", "d. Unavailable"],
+        question:
+          "What did Paul say would happen if he rebuilt what he destroyed?",
+        options: [
+          "a. He would be justified",
+          "b. He would be a lawbreaker",
+          "c. He would promote sin",
+          "d. He would set aside the grace of God",
+        ],
+        answer: "b",
+      },
+      {
+        question: "How does Paul say he now lives?",
+        options: [
+          "a. By the works of the law",
+          "b. By faith in himself",
+          "c. By faith in the Son of God",
+          "d. By being a Jew",
+        ],
         answer: "c",
       },
     ],
   },
   {
+    quizId: "galatians-4",
     id: "4",
     verses:
-      "1 Timothy 2:10-3:7 - but with good deeds, appropriate for women who profess to worship God. A woman should learn in quietness and full submission. I do not permit a woman to teach or to assume authority over a man; she must be quiet. For Adam was formed first, then Eve. And Adam was not the one deceived; it was the woman who was deceived and became a sinner. But women will be saved through childbearing—if they continue in faith, love and holiness with propriety. Here is a trustworthy saying: Whoever aspires to be an overseer desires a noble task. Now the overseer is to be above reproach, faithful to his wife, temperate, self-controlled, respectable, hospitable, able to teach, not given to drunkenness, not violent but gentle, not quarrelsome, not a lover of money. He must manage his own family well and see that his children obey him, and he must do so in a manner worthy of full respect. (If anyone does not know how to manage his own family, how can he take care of God’s church?) He must not be a recent convert, or he may become conceited and fall under the same judgment as the devil.",
+      "Galatians 3:1-25 - You foolish Galatians! Who has bewitched you? Before your very eyes Jesus Christ was clearly portrayed as crucified. I would like to learn just one thing from you: Did you receive the Spirit by the works of the law, or by believing what you heard? Are you so foolish? After beginning by means of the Spirit, are you now trying to finish by means of the flesh? Have you experienced so much in vain—if it really was in vain? So again I ask, does God give you his Spirit and work miracles among you by the works of the law, or by your believing what you heard? So also Abraham ‘believed God, and it was credited to him as righteousness.’ Understand, then, that those who have faith are children of Abraham. Scripture foresaw that God would justify the Gentiles by faith, and announced the gospel in advance to Abraham: 'All nations will be blessed through you.' So those who rely on faith are blessed along with Abraham, the man of faith. For all who rely on the works of the law are under a curse, as it is written: 'Cursed is everyone who does not continue to do everything written in the Book of the Law.' Clearly no one who relies on the law is justified before God, because 'the righteous will live by faith.' The law is not based on faith; on the contrary, it says, 'The person who does these things will live by them.' Christ redeemed us from the curse of the law by becoming a curse for us, for it is written: 'Cursed is everyone who is hung on a pole.' He redeemed us in order that the blessing given to Abraham might come to the Gentiles through Christ Jesus, so that by faith we might receive the promise of the Spirit. Brothers and sisters, let me take an example from everyday life. Just as no one can set aside or add to a human covenant that has been duly established, so it is in this case. The promises were spoken to Abraham and to his seed. Scripture does not say 'and to seeds,' meaning many people, but 'and to your seed,' meaning one person, who is Christ. What I mean is this: The law, introduced 430 years later, does not set aside the covenant previously established by God and thus do away with the promise. For if the inheritance depends on the law, then it no longer depends on the promise; but God in his grace gave it to Abraham through a promise. Why, then, was the law given at all? It was added because of transgressions until the Seed to whom the promise referred had come. The law was given through angels and entrusted to a mediator. A mediator, however, implies more than one party; but God is one. Is the law, therefore, opposed to the promises of God? Absolutely not! For if a law had been given that could impart life, then righteousness would certainly have come by the law. But Scripture has locked up everything under the control of sin, so that what was promised, being given through faith in Jesus Christ, might be given to those who believe.",
     question: [
       {
-        question: "What should women who profess to worship God exhibit?",
+        question: "How were the Galatians portrayed as foolish?",
         options: [
-          "a. Quietness and full submission",
-          "b. Teach and assume authority",
-          "c. Loudness and rebellion",
-          "d. Independence",
+          "a. By their wisdom",
+          "b. By their belief in Jesus Christ",
+          "c. By trying to finish by means of the flesh what they began by means of the Spirit",
+          "d. By their understanding of the law",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "How did Abraham receive righteousness according to the passage?",
+        options: [
+          "a. By his works",
+          "b. By the law",
+          "c. By faith",
+          "d. By his lineage",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What did Christ do to redeem us from the curse of the law?",
+        options: [
+          "a. He became a curse for us",
+          "b. He abolished the law",
+          "c. He enforced the law",
+          "d. He ignored the law",
         ],
         answer: "a",
       },
       {
-        question: "Who should aspire to be an overseer according to the verse?",
+        question: "What does the law do, according to the passage?",
         options: [
-          "a. Men only",
-          "b. Women only",
-          "c. All believers",
-          "d. Unbelievers",
+          "a. It imparts life",
+          "b. It brings righteousness",
+          "c. It opposes the promises of God",
+          "d. It locks up everything under the control of sin",
         ],
-        answer: "c",
-      },
-      {
-        question: "What qualities should an overseer possess?",
-        options: [
-          "a. Drunkenness and violence",
-          "b. Self-control and gentleness",
-          "c. Quarrelsomeness and love for money",
-          "d. Recent conversion and conceit",
-        ],
-        answer: "b",
-      },
-      {
-        question: "Why should an overseer not be a recent convert?",
-        options: [
-          "a. To avoid family problems",
-          "b. To escape judgment",
-          "c. To avoid becoming conceited",
-          "d. To manage God’s church better",
-        ],
-        answer: "c",
+        answer: "d",
       },
     ],
   },
   {
+    quizId: "galatians-3-4",
     id: "5",
     verses:
-      "1 Timothy 3:8-16 - In the same way, deacons are to be worthy of respect, sincere, not indulging in much wine, and not pursuing dishonest gain. They must keep hold of the deep truths of the faith with a clear conscience. They must first be tested; and then if there is nothing against them, let them serve as deacons. In the same way, the women are to be worthy of respect, not malicious talkers but temperate and trustworthy in everything. A deacon must be faithful to his wife and must manage his children and his household well. Those who have served well gain an excellent standing and great assurance in their faith in Christ Jesus. Although I hope to come to you soon, I am writing you these instructions so that, if I am delayed, you will know how people ought to conduct themselves in God’s household, which is the church of the living God, the pillar and foundation of the truth. Beyond all question, the mystery from which true godliness springs is great: He appeared in the flesh, was vindicated by the Spirit, was seen by angels, was preached among the nations, was believed on in the world, was taken up in glory.",
+      "Galatians 3:26-4:20 - So in Christ Jesus you are all children of God through faith, for all of you who were baptized into Christ have clothed yourselves with Christ. There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus. If you belong to Christ, then you are Abraham’s seed, and heirs according to the promise. What I am saying is that as long as an heir is underage, he is no different from a slave, although he owns the whole estate. The heir is subject to guardians and trustees until the time set by his father. So also, when we were underage, we were in slavery under the elemental spiritual forces of the world. But when the set time had fully come, God sent his Son, born of a woman, born under the law, to redeem those under the law, that we might receive adoption to sonship. Because you are his sons, God sent the Spirit of his Son into our hearts, the Spirit who calls out, 'Abba, Father.' So you are no longer a slave, but God’s child; and since you are his child, God has made you also an heir. Formerly, when you did not know God, you were slaves to those who by nature are not gods. But now that you know God—or rather are known by God—how is it that you are turning back to those weak and miserable forces? Do you wish to be enslaved by them all over again? You are observing special days and months and seasons and years! I fear for you, that somehow I have wasted my efforts on you. I plead with you, brothers and sisters, become like me, for I became like you. You did me no wrong. As you know, it was because of an illness that I first preached the gospel to you, and even though my illness was a trial to you, you did not treat me with contempt or scorn. Instead, you welcomed me as if I were an angel of God, as if I were Christ Jesus himself. Where, then, is your blessing of me now? I can testify that, if you could have done so, you would have torn out your eyes and given them to me. Have I now become your enemy by telling you the truth? Those people are zealous to win you over, but for no good. What they want is to alienate you from us, so that you may have zeal for them. It is fine to be zealous, provided the purpose is good, and to be so always, not just when I am with you. My dear children, for whom I am again in the pains of childbirth until Christ is formed in you, how I wish I could be with you now and change my tone, because I am perplexed about you!",
     question: [
       {
         question:
-          "What qualities should deacons possess according to the passage?",
+          "What does being baptized into Christ signify according to the passage?",
         options: [
-          "a. Indulging in much wine and pursuing dishonest gain",
-          "b. Faithfulness and good management",
-          "c. Malicious talking and dishonesty",
-          "d. Drunkenness and disrespect",
+          "a. Clothed with Christ",
+          "b. Becoming a Jew",
+          "c. Becoming a slave",
+          "d. Losing identity",
         ],
-        answer: "b",
-      },
-      {
-        question: "What is the church according to the verse?",
-        options: [
-          "a. The pillar and foundation of lies",
-          "b. The pillar and foundation of truth",
-          "c. The mystery of godliness",
-          "d. A place for malicious talkers",
-        ],
-        answer: "b",
+        answer: "a",
       },
       {
         question:
-          "What does the passage mention about the appearance of Christ?",
+          "Why did God send his Son into the world according to the passage?",
         options: [
-          "a. He never appeared in the flesh",
-          "b. He appeared and was vindicated by the Spirit",
-          "c. He never preached among the nations",
-          "d. He was taken up in shame",
+          "a. To enslave humanity",
+          "b. To redeem those under the law",
+          "c. To establish special days and seasons",
+          "d. To test humanity",
         ],
         answer: "b",
       },
       {
-        question:
-          "What is the purpose of these instructions according to the text?",
+        question: "What does Paul plead with the Galatians to become?",
         options: [
-          "a. To confuse people",
-          "b. To guide behavior in God’s household",
-          "c. To delay the writer's arrival",
-          "d. To instigate conflicts in the church",
+          "a. Slaves",
+          "b. Like the false teachers",
+          "c. Like him",
+          "d. Like angels",
+        ],
+        answer: "c",
+      },
+      {
+        question: "How does Paul describe his relationship with the Galatians?",
+        options: [
+          "a. As an enemy",
+          "b. As a friend",
+          "c. As an alien",
+          "d. As a slave",
         ],
         answer: "b",
       },
     ],
   },
   {
+    quizId: "galatians-4-5",
     id: "6",
     verses:
-      "1 Timothy 4:1-11 - The Spirit clearly says that in later times some will abandon the faith and follow deceiving spirits and things taught by demons. Such teachings come through hypocritical liars, whose consciences have been seared as with a hot iron. They forbid people to marry and order them to abstain from certain foods, which God created to be received with thanksgiving by those who believe and who know the truth. For everything God created is good, and nothing is to be rejected if it is received with thanksgiving because it is consecrated by the word of God and prayer. If you point these things out to the brothers and sisters, you will be a good minister of Christ Jesus, nourished on the truths of the faith and of the good teaching that you have followed. Have nothing to do with godless myths and old wives’ tales; rather, train yourself to be godly. For physical training is of some value, but godliness has value for all things, holding promise for both the present life and the life to come. This is a trustworthy saying that deserves full acceptance. That is why we labor and strive, because we have put our hope in the living God, who is the Savior of all people, and especially of those who believe.",
+      "Galatians 4:21-5:6 - Tell me, you who want to be under the law, are you not aware of what the law says? For it is written that Abraham had two sons, one by the slave woman and the other by the free woman. His son by the slave woman was born according to the flesh, but his son by the free woman was born as the result of a divine promise. These things are being taken figuratively: The women represent two covenants. One covenant is from Mount Sinai and bears children who are to be slaves: This is Hagar. Now Hagar stands for Mount Sinai in Arabia and corresponds to the present city of Jerusalem, because she is in slavery with her children. But the Jerusalem that is above is free, and she is our mother. For it is written: 'Be glad, barren woman, you who never bore a child; shout for joy and cry aloud, you who were never in labor; because more are the children of the desolate woman than of her who has a husband.' Now you, brothers and sisters, like Isaac, are children of promise. At that time the son born according to the flesh persecuted the son born by the power of the Spirit. It is the same now. But what does Scripture say? 'Get rid of the slave woman and her son, for the slave woman’s son will never share in the inheritance with the free woman’s son.' Therefore, brothers and sisters, we are not children of the slave woman, but of the free woman. It is for freedom that Christ has set us free. Stand firm, then, and do not let yourselves be burdened again by a yoke of slavery. Mark my words! I, Paul, tell you that if you let yourselves be circumcised, Christ will be of no value to you at all. Again I declare to every man who lets himself be circumcised that he is obligated to obey the whole law. You who are trying to be justified by the law have been alienated from Christ; you have fallen away from grace. For through the Spirit we eagerly await by faith the righteousness for which we hope. For in Christ Jesus neither circumcision nor uncircumcision has any value. The only thing that counts is faith expressing itself through love.",
     question: [
       {
-        question: "What does the Spirit say about later times?",
+        question: "What do the two women mentioned in the passage represent?",
         options: [
-          "a. People will follow deceiving spirits and demonic teachings",
-          "b. People will abandon godly ways",
-          "c. People will marry and abstain from food",
-          "d. All of the above",
+          "a. Two mountains",
+          "b. Two cities",
+          "c. Two covenants",
+          "d. Two nations",
         ],
-        answer: "a",
+        answer: "c",
       },
       {
-        question: "What should believers do according to this passage?",
+        question: "What does the Jerusalem above symbolize?",
         options: [
-          "a. Have nothing to do with godly myths",
-          "b. Train themselves to be godly",
-          "c. Focus only on physical training",
-          "d. Abstain from everything",
-        ],
-        answer: "b",
-      },
-      {
-        question: "What is a trustworthy saying that deserves full acceptance?",
-        options: [
-          "a. Old wives' tales are valuable",
-          "b. Godliness has no value",
-          "c. Physical training is not important",
-          "d. The hope in the living God",
-        ],
-        answer: "d",
-      },
-      {
-        question: "What is the living God according to the text?",
-        options: [
-          "a. The Savior of only some people",
-          "b. The Savior of all people, especially those who believe",
-          "c. The Creator of myths",
-          "d. Someone without hope",
-        ],
-        answer: "b",
-      },
-    ],
-  },
-  {
-    id: "7",
-    verses:
-      "1 Timothy 4:12-5:2 - Don’t let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity. Until I come, devote yourself to the public reading of Scripture, to preaching and to teaching. Do not neglect your gift, which was given you through prophecy when the body of elders laid their hands on you. Be diligent in these matters; give yourself wholly to them, so that everyone may see your progress. Watch your life and doctrine closely. Persevere in them, because if you do, you will save both yourself and your hearers. Do not rebuke an older man harshly, but exhort him as if he were your father. Treat younger men as brothers, older women as mothers, and younger women as sisters, with absolute purity. Give proper recognition to those widows who are really in need. But if a widow has children or grandchildren, these should learn first of all to put their religion into practice by caring for their own family and so repaying their parents and grandparents, for this is pleasing to God.",
-    question: [
-      {
-        question: "According to this passage, what should young people do?",
-        options: [
-          "a. They should neglect their gifts",
-          "b. They should set an example for believers",
-          "c. They should avoid learning from elders",
-          "d. They should not focus on progress",
-        ],
-        answer: "b",
-      },
-      {
-        question: "How should younger men be treated?",
-        options: [
-          "a. Harshly",
-          "b. As brothers",
-          "c. Without respect",
-          "d. Ignored",
-        ],
-        answer: "b",
-      },
-      {
-        question: "What is pleasing to God according to this passage?",
-        options: [
-          "a. Neglecting family duties",
-          "b. Repaying parents and grandparents",
-          "c. Rebuking elders",
-          "d. Disregarding widows in need",
-        ],
-        answer: "b",
-      },
-      {
-        question: "What should be the focus in teaching and preaching?",
-        options: [
-          "a. Personal gain",
-          "b. Doctrine and life",
-          "c. Neglecting progress",
-          "d. Rebuking elders",
-        ],
-        answer: "b",
-      },
-    ],
-  },
-  {
-    id: "8",
-    verses:
-      "1 Timothy 5:3-16 - Give proper recognition to those widows who are really in need. But if a widow has children or grandchildren, these should learn first of all to put their religion into practice by caring for their own family and so repaying their parents and grandparents, for this is pleasing to God. The widow who is really in need and left all alone puts her hope in God and continues night and day to pray and to ask God for help. But the widow who lives for pleasure is dead even while she lives. Give the people these instructions, so that no one may be open to blame. Anyone who does not provide for their relatives, and especially for their own household, has denied the faith and is worse than an unbeliever. No widow may be put on the list of widows unless she is over sixty, has been faithful to her husband, and is well known for her good deeds, such as bringing up children, showing hospitality, washing the feet of the Lord’s people, helping those in trouble, and devoting herself to all kinds of good deeds.",
-    question: [
-      {
-        question:
-          "What should children or grandchildren do for their widowed relatives?",
-        options: [
-          "a. Ignore them",
-          "b. Repay their parents and grandparents",
-          "c. Avoid them",
-          "d. Neglect their responsibilities",
+          "a. Slavery",
+          "b. Freedom",
+          "c. Jerusalem on earth",
+          "d. Hagar",
         ],
         answer: "b",
       },
       {
         question:
-          "What does the passage say about widows who live for pleasure?",
+          "What is emphasized as the only thing that counts in Christ Jesus?",
         options: [
-          "a. They are alive",
-          "b. They are dead even while living",
-          "c. They are role models",
+          "a. Circumcision",
+          "b. Uncircumcision",
+          "c. Faith expressing itself through love",
+          "d. Observance of the law",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What happens to those who try to be justified by the law according to the passage?",
+        options: [
+          "a. They receive grace",
+          "b. They are freed from Christ",
+          "c. They fall away from grace",
           "d. They are blessed",
         ],
-        answer: "b",
-      },
-      {
-        question: "What deeds are listed as commendable for widows?",
-        options: [
-          "a. Watching TV",
-          "b. Washing dishes",
-          "c. Helping those in trouble",
-          "d. Ignoring others",
-        ],
-        answer: "c",
-      },
-      {
-        question:
-          "What does the passage say about those who do not provide for their own household?",
-        options: [
-          "a. They are faithful",
-          "b. They have denied the faith",
-          "c. They are believers",
-          "d. They are better than unbelievers",
-        ],
-        answer: "b",
-      },
-    ],
-  },
-  {
-    id: "9",
-    verses:
-      "1 Timothy 5:17-25 - The elders who direct the affairs of the church well are worthy of double honor, especially those whose work is preaching and teaching. For Scripture says, 'Do not muzzle an ox while it is treading out the grain,' and 'The worker deserves his wages.' Do not entertain an accusation against an elder unless it is brought by two or three witnesses. But those elders who are sinning you are to reprove before everyone, so that the others may take warning. I charge you, in the sight of God and Christ Jesus and the elect angels, to keep these instructions without partiality, and to do nothing out of favoritism. Do not be hasty in the laying on of hands, and do not share in the sins of others. Keep yourself pure. Stop drinking only water, and use a little wine because of your stomach and your frequent illnesses. The sins of some are obvious, reaching the place of judgment ahead of them; the sins of others trail behind them. In the same way, good deeds are obvious, and even those that are not obvious cannot remain hidden forever.",
-    question: [
-      {
-        question: "What kind of honor are the elders worthy of?",
-        options: [
-          "a. Single honor",
-          "b. Double honor",
-          "c. No honor",
-          "d. Unspecified honor",
-        ],
-        answer: "b",
-      },
-      {
-        question:
-          "What does the passage mention regarding accusations against elders?",
-        options: [
-          "a. They should be ignored",
-          "b. They should be made publicly",
-          "c. They need no evidence",
-          "d. Require two or three witnesses",
-        ],
-        answer: "d",
-      },
-      {
-        question: "What instruction is given about laying on of hands?",
-        options: [
-          "a. Be hasty",
-          "b. Be cautious",
-          "c. Share in others' sins",
-          "d. Be partial",
-        ],
-        answer: "b",
-      },
-      {
-        question: "Why was a little wine suggested?",
-        options: [
-          "a. For pleasure",
-          "b. To intoxicate",
-          "c. For stomach and frequent illnesses",
-          "d. For social drinking",
-        ],
         answer: "c",
       },
     ],
   },
   {
-    id: "10",
+    quizId: "galatians-5-6",
+    id: "7",
     verses:
-      "1 Timothy 6:1-10 - All who are under the yoke of slavery should consider their masters worthy of full respect, so that God’s name and our teaching may not be slandered. Those who have believing masters should not show them disrespect just because they are fellow believers. Instead, they should serve them even better because their masters are dear to them as fellow believers and are devoted to the welfare of their slaves. These are the things you are to teach and insist on. If anyone teaches otherwise and does not agree to the sound instruction of our Lord Jesus Christ and to godly teaching, they are conceited and understand nothing. They have an unhealthy interest in controversies and quarrels about words that result in envy, strife, malicious talk, evil suspicions and constant friction between people of corrupt mind, who have been robbed of the truth and who think that godliness is a means to financial gain. But godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it. But if we have food and clothing, we will be content with that. Those who want to get rich fall into temptation and a trap and into many foolish and harmful desires that plunge people into ruin and destruction. For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs.",
+      "Galatians 5:7-6:18 - You were running a good race. Who cut in on you to keep you from obeying the truth? That kind of persuasion does not come from the one who calls you. 'A little yeast works through the whole batch of dough.' I am confident in the Lord that you will take no other view. The one who is throwing you into confusion, whoever that may be, will have to pay the penalty. Brothers and sisters, if I am still preaching circumcision, why am I still being persecuted? In that case the offense of the cross has been abolished. As for those agitators, I wish they would go the whole way and emasculate themselves! You, my brothers and sisters, were called to be free. But do not use your freedom to indulge the flesh; rather, serve one another humbly in love. For the entire law is fulfilled in keeping this one command: 'Love your neighbor as yourself.' If you bite and devour each other, watch out or you will be destroyed by each other. So I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the flesh desires what is contrary to the Spirit, and the Spirit what is contrary to the flesh. They are in conflict with each other, so that you are not to do whatever you want. But if you are led by the Spirit, you are not under the law. The acts of the flesh are obvious: sexual immorality, impurity and debauchery; idolatry and witchcraft; hatred, discord, jealousy, fits of rage, selfish ambition, dissensions, factions and envy; drunkenness, orgies, and the like. I warn you, as I did before, that those who live like this will not inherit the kingdom of God. But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law. Those who belong to Christ Jesus have crucified the flesh with its passions and desires. Since we live by the Spirit, let us keep in step with the Spirit. Let us not become conceited, provoking and envying each other. Brothers and sisters, if someone is caught in a sin, you who live by the Spirit should restore that person gently. But watch yourselves, or you also may be tempted. Carry each other’s burdens, and in this way you will fulfill the law of Christ. If anyone thinks they are something when they are not, they deceive themselves. Each one should test their own actions. Then they can take pride in themselves alone, without comparing themselves to someone else, for each one should carry their own load. Nevertheless, the one who receives instruction in the word should share all good things with their instructor. Do not be deceived: God cannot be mocked. A man reaps what he sows. Whoever sows to please their flesh, from the flesh will reap destruction; whoever sows to please the Spirit, from the Spirit will reap eternal life. Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up. Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers. See what large letters I use as I write to you with my own hand! Those who want to impress people by means of the flesh are trying to compel you to be circumcised. The only reason they do this is to avoid being persecuted for the cross of Christ. Not even those who are circumcised keep the law, yet they want you to be circumcised that they may boast about your circumcision in the flesh. May I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world. Neither circumcision nor uncircumcision means anything; what counts is the new creation. Peace and mercy to all who follow this rule—to the Israel of God. From now on, let no one cause me trouble, for I bear on my body the marks of Jesus. The grace of our Lord Jesus Christ be with your spirit, brothers and sisters. Amen.",
     question: [
       {
-        question: "What should slaves consider their masters worthy of?",
-        options: [
-          "a. Disrespect",
-          "b. Full respect",
-          "c. Distrust",
-          "d. Ignorance",
-        ],
+        question:
+          "What is emphasized as fulfilling the entire law according to the passage?",
+        options: ["a. Sacrifices", "b. Love", "c. Circumcision", "d. Rituals"],
         answer: "b",
       },
       {
-        question: "What is considered a root of all kinds of evil?",
+        question: "What are the acts of the flesh listed in the passage?",
         options: [
-          "a. Love of God",
-          "b. Faith",
-          "c. Love of money",
-          "d. Altruism",
-        ],
-        answer: "c",
-      },
-      {
-        question: "What is considered great gain?",
-        options: [
-          "a. Wealth",
-          "b. Godliness with contentment",
-          "c. Material possessions",
-          "d. Social status",
+          "a. Love, joy, peace",
+          "b. Sexual immorality, idolatry, jealousy",
+          "c. Patience, kindness, goodness",
+          "d. Gentleness, self-control, faithfulness",
         ],
         answer: "b",
       },
       {
         question:
-          "According to the passage, what do some people eager for money do?",
+          "What will those who live according to the flesh not inherit according to the passage?",
         options: [
-          "a. Practice charity",
-          "b. Wander from the faith",
-          "c. Find contentment",
-          "d. Experience joy",
-        ],
-        answer: "b",
-      },
-    ],
-  },
-  {
-    id: "11",
-    verses:
-      "1 Timothy 4:6-10 - If you point these things out to the brothers and sisters, you will be a good minister of Christ Jesus, nourished on the truths of the faith and of the good teaching that you have followed. Have nothing to do with godless myths and old wives’ tales; rather, train yourself to be godly. For physical training is of some value, but godliness has value for all things, holding promise for both the present life and the life to come. This is a trustworthy saying that deserves full acceptance.",
-  },
-  {
-    id: "12",
-    verses:
-      "1 Timothy 6:11-21 - But you, man of God, flee from all this, and pursue righteousness, godliness, faith, love, endurance and gentleness. Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made your good confession in the presence of many witnesses. In the sight of God, who gives life to everything, and of Christ Jesus, who while testifying before Pontius Pilate made the good confession, I charge you to keep this command without spot or blame until the appearing of our Lord Jesus Christ, which God will bring about in his own time—God, the blessed and only Ruler, the King of kings and Lord of lords, who alone is immortal and who lives in unapproachable light, whom no one has seen or can see. To him be honor and might forever. Amen. Command those who are rich in this present world not to be arrogant nor to put their hope in wealth, which is so uncertain, but to put their hope in God, who richly provides us with everything for our enjoyment. Command them to do good, to be rich in good deeds, and to be generous and willing to share. In this way they will lay up treasure for themselves as a firm foundation for the coming age, so that they may take hold of the life that is truly life. Timothy, guard what has been entrusted to your care. Turn away from godless chatter and the opposing ideas of what is falsely called knowledge, which some have professed and in so doing have departed from the faith. Grace be with you all.",
-    question: [
-      {
-        question: "What should the man of God pursue?",
-        options: [
-          "a. Wealth",
-          "b. Righteousness, godliness, faith, love, endurance, and gentleness",
-          "c. Power",
-          "d. Fame",
-        ],
-        answer: "b",
-      },
-      {
-        question: "What is emphasized for those who are rich?",
-        options: [
-          "a. To be arrogant",
-          "b. To put their hope in wealth",
-          "c. To share generously",
-          "d. To avoid generosity",
-        ],
-        answer: "c",
-      },
-      {
-        question: "What is encouraged to be guarded against?",
-        options: [
-          "a. Godless chatter and false knowledge",
-          "b. Righteousness and faith",
-          "c. Generosity",
-          "d. Confessions before witnesses",
+          "a. The kingdom of God",
+          "b. Earthly riches",
+          "c. Temporal pleasures",
+          "d. Eternal life",
         ],
         answer: "a",
       },
       {
-        question: "What is the firm foundation laid up for the coming age?",
+        question:
+          "What is the only thing that counts according to the passage?",
         options: [
-          "a. Wealth",
-          "b. Good deeds and generosity",
-          "c. Arrogance",
-          "d. Fleeing from everything",
+          "a. Circumcision",
+          "b. New creation",
+          "c. The law",
+          "d. Sacrifices",
         ],
         answer: "b",
       },
     ],
   },
 ];
-
-export default bibleVerses;
+export default galatiansVerses;

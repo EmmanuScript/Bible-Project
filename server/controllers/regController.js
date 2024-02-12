@@ -8,11 +8,11 @@ const handleErrors = (e) => {
   let errors = { email: "", password: "", roles: "" };
 
   //incorrect email
-  if (e.message === "incorrect email") {
+  if (e.message === "Incorrect email") {
     errors.email = "your email is not registered";
   }
 
-  if (e.message === "incorrect password") {
+  if (e.message === "Incorrect password") {
     errors.password = "your password is not correct";
   }
 
@@ -46,15 +46,27 @@ const createToken = (id) => {
 };
 
 module.exports.signup_post = async (req, res) => {
-  const { email, password, name, group } = req.body; // Assuming group is included in the signup form
+  const { email, password, name, group, group_leader } = req.body; // Assuming group is included in the signup form
 
   try {
-    const user = await User.create({ email, password, name, group }); // Creating a new user
+    if (group_leader === true && password != "outright") {
+      res.status(401).json({ message: "Kindly select false for group leader" });
+      return;
+    }
+    const user = await User.create({
+      email,
+      password,
+      name,
+      group,
+      group_leader,
+    }); // Creating a new user
 
     const token = createToken(user._id); // Creating a JWT token for the user
 
     res.cookie("jwt", token, { httpOnly: true, maxAge: maxAge * 1000 });
-    res.status(201).json({ user: user._id, group: user.group }); // Responding with the user's ID and group
+    res
+      .status(201)
+      .json({ userId: user._id, group: user.group, token, maxAge }); // Responding with the user's ID and group
   } catch (e) {
     const errors = handleErrors(e); // Handling potential errors
     res.status(400).json({ errors }); // Sending error response if any errors occur
@@ -62,17 +74,21 @@ module.exports.signup_post = async (req, res) => {
 };
 
 module.exports.login_post = async (req, res) => {
-  const { email, password } = req.body;
-
+  const { username, password } = req.body;
   try {
-    const user = await User.login(email, password);
-
+    const user = await User.login(username, password);
     const token = createToken(user._id);
 
     res.cookie("jwt", token, { httpOnly: true, maxAge: maxAge * 1000 });
 
-    res.status(200).json({ user: user._id, roles: user.roles });
+    res.status(200).json({
+      userId: user._id,
+      group: user.group,
+      token,
+      maxAge,
+    });
   } catch (e) {
+    console.log(e);
     const errors = handleErrors(e);
     res.status(409).json({ errors });
   }
@@ -81,4 +97,25 @@ module.exports.login_post = async (req, res) => {
 module.exports.logout_get = (req, res) => {
   res.clearCookie("jwt", "", { maxAge: 1 });
   res.json("logout successful");
+};
+
+module.exports.update_password = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    user.password = password;
+
+    await user.save();
+
+    res.status(200).json({ message: "Password Update Successful" });
+  } catch (e) {
+    console.error(e);
+    res.status(501).json({ message: "Password update error" });
+  }
 };

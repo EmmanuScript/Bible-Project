@@ -1,44 +1,163 @@
-// AuthContext.js
-import React, { createContext, useState } from "react";
-import { useLocalStorage } from "../hooks/LocalStorage";
+import React, { createContext, useContext, useState } from "react";
+import { DATA_URL } from "../config";
+import Cookies from "js-cookie";
 
-const AuthContext = createContext({
-  isLoggedIn: false,
-  setIsLoggedIn: () => {},
-  user: null,
-  setUser: () => {},
-});
+const AuthContext = createContext();
 
-const AuthProvider = ({ children }) => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [user, setUser] = useState(null);
-  const [usage, setUsage] = useLocalStorage("user", "imbarinbe");
+export const AuthProvider = ({ children }) => {
+  const [isLoggedIn, setIsLoggedIn] = useState(
+    localStorage.getItem("jwt") === "true"
+  );
+  const [user, setUser] = useState({});
+  const [error, setError] = useState();
+  const [isForgotPassword, setIsForgotPassword] = useState(false);
+  const [isLogin, setIsLogin] = useState(false);
 
-  const login = (email, password) => {
-    if (email !== "oanjoyin@gmail.com") {
-      setIsLoggedIn(false);
-      setUser(user);
-      console.log(user);
-      return;
+  const [isOTPVerified, setIsOTPVerified] = useState(false);
+  const [openResetPassword, setOpenResetPassword] = useState(false);
+
+  const isTokenExpired = () => {
+    const token = localStorage.getItem("jwt");
+    const expirationTime = localStorage.getItem("expiryTime");
+    if (token && expirationTime) {
+      const currentTime = Math.floor(Date.now() / 1000); // Convert current time to seconds
+      return currentTime > parseInt(expirationTime, 10);
     }
-    setIsLoggedIn(true);
-    setUsage("ibeji");
-    console.log(user);
-    // setUser(user);
+    return true; // Treat as expired if token or expiration time is missing
+  };
+
+  const login = async (username, password) => {
+    try {
+      const response = await fetch(`${DATA_URL}api/login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setUser(data);
+        Cookies.set("jwt", data.token, { expires: 7 });
+        // Store the JWT token in localStorage
+        localStorage.setItem("userId", data.userId);
+        localStorage.setItem("group", data.group);
+        localStorage.setItem("jwt", data.token);
+        localStorage.setItem("jwtExpiration", data.maxAge);
+
+        const currentTime = new Date().getTime();
+        const newTime = currentTime + data.maxAge * 1000;
+
+        localStorage.setItem("expiryTime", newTime);
+        console.log(newTime);
+
+        setIsLogin(true);
+        setIsLoggedIn(true);
+        return true;
+      } else {
+        const data = await response.json();
+        const errorObj = data.errors;
+        for (const key in errorObj) {
+          if (errorObj.hasOwnProperty(key) && errorObj[key]) {
+            setError(errorObj[key]);
+          }
+          console.error("Login failed:", data.errors);
+          return false;
+        }
+      }
+    } catch (error) {
+      setError(error.message);
+      console.error("An error occurred during login:", error.message);
+      return false;
+    }
+  };
+
+  const signup = async (formData) => {
+    try {
+      const response = await fetch(`${DATA_URL}api/signup`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setUser(data);
+        Cookies.set("jwt", data.token, { expires: 7 });
+        // Store the JWT token in localStorage
+        localStorage.setItem("userId", data.userId);
+        localStorage.setItem("group", data.group);
+        localStorage.setItem("jwt", data.token);
+
+        return true;
+      } else {
+        const data = await response.json();
+        const errorObj = data.errors;
+        for (const key in errorObj) {
+          if (errorObj.hasOwnProperty(key) && errorObj[key]) {
+            setError(errorObj[key]);
+          }
+          console.error("Sign up failed:", data.errors);
+          return false;
+        }
+      }
+    } catch (error) {
+      setError(error.message);
+      console.error("An error occurred during login:", error.message);
+      return false;
+    }
   };
 
   const logout = () => {
+    localStorage.clear();
     setIsLoggedIn(false);
-    setUser(null);
+  };
+
+  const isAuthenticated = () => {
+    const token = localStorage.getItem("jwt");
+    const expiryTime = localStorage.getItem("expiryTime");
+
+    if (token && expiryTime) {
+      const currentTime = new Date().getTime();
+      const expirationTime = parseInt(expiryTime, 10);
+      console.log(currentTime, expirationTime);
+      return currentTime < expirationTime;
+    }
+
+    return false;
   };
 
   return (
     <AuthContext.Provider
-      value={{ isLoggedIn, setIsLoggedIn, user, setUser, login, logout, usage }}
+      value={{
+        isLoggedIn,
+        login,
+        logout,
+        user,
+        isAuthenticated,
+        error,
+        setError,
+        signup,
+        isForgotPassword,
+        isOTPVerified,
+        openResetPassword,
+        setIsForgotPassword,
+        setOpenResetPassword,
+        setIsLoggedIn,
+        setIsOTPVerified,
+        isLogin,
+        setIsLogin,
+        isTokenExpired,
+      }}
     >
       {children}
     </AuthContext.Provider>
   );
 };
 
-export { AuthContext, AuthProvider };
+export const useAuth = () => {
+  return useContext(AuthContext);
+};

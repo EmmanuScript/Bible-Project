@@ -1,8 +1,8 @@
-const Group = require("../model/Group");
+const User = require("../model/User");
 
 module.exports.get_group = async (req, res) => {
   try {
-    const groups = await Group.find().sort({ group_score: -1 });
+    const groups = await Users.find().sort({ group: 1 }); // Sort by the 'group' property in ascending order
     res.status(200).json(groups);
   } catch (error) {
     res
@@ -11,43 +11,113 @@ module.exports.get_group = async (req, res) => {
   }
 };
 
-module.exports.update_group_score = async (req, res) => {
+module.exports.get_group_by_id = async (req, res) => {
+  const groupId = req.params.id;
+
   try {
-    const groupId = req.params.groupId;
-    const updatedScore = req.body.group_score;
-    // Find the group by ID and update the group's score
-    const group = await Group.findByIdAndUpdate(
-      groupId,
-      { group_score: updatedScore },
-      { new: true }
-    );
+    const group = await User.find({ group: groupId });
 
     if (!group) {
       return res.status(404).json({ message: "Group not found" });
     }
 
-    res.status(200).json({ groupId, updatedScore }); // Return the updated score as JSON
+    res.status(200).json(group);
   } catch (error) {
     res
       .status(500)
-      .json({ message: "Failed to update group score", error: error.message });
+      .json({ message: "Failed to fetch group", error: error.message });
   }
 };
 
-module.exports.highest_score = async (req, res) => {
+module.exports.get_group_leader = async (req, res) => {
+  const groupId = req.params.id;
+
   try {
-    const groupWithHighestScore = await Group.aggregate([
+    const group = await User.find({ group: groupId, group_leader: true });
+
+    if (!group) {
+      return res.status(404).json({ message: "Group not found" });
+    }
+
+    res.status(200).json(group);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Failed to fetch group", error: error.message });
+  }
+};
+
+// module.exports.update_group_score = async (req, res) => {
+//   try {
+//     const groupId = req.params.groupId;
+//     const updatedScore = req.body.group_score;
+//     // Find the group by ID and update the group's score
+//     const group = await Group.findByIdAndUpdate(
+//       groupId,
+//       { group_score: updatedScore },
+//       { new: true }
+//     );
+
+//     if (!group) {
+//       return res.status(404).json({ message: "Group not found" });
+//     }
+
+//     res.status(200).json({ groupId, updatedScore }); // Return the updated score as JSON
+//   } catch (error) {
+//     res
+//       .status(500)
+//       .json({ message: "Failed to update group score", error: error.message });
+//   }
+// };
+
+module.exports.get_group_score = async (req, res) => {
+  try {
+    // Extract the groupId from the request parameters
+    const { groupId } = req.params;
+
+    // Find all users in the specified group
+    const usersInGroup = await User.find({ group: groupId });
+
+    // Calculate the total score by summing up the points of all users
+    let groupScore = 0;
+    usersInGroup.forEach((user) => {
+      groupScore += user.points;
+    });
+
+    // Return the total score as the response
+    res.status(200).json({ groupScore });
+  } catch (error) {
+    console.error("Error calculating group score:", error);
+    res.status(500).json({ message: "Failed to calculate group score" });
+  }
+};
+
+module.exports.group_highest_score = async (req, res) => {
+  try {
+    const groupWithHighestScore = await User.aggregate([
       {
-        $group: {
-          _id: null,
-          maxScore: { $max: { $toInt: "$group_score" } }, // Convert score to integer if it's stored as a string
+        $lookup: {
+          from: "users", // Assuming your user collection is named "users"
+          localField: "group",
+          foreignField: "group",
+          as: "group_users",
         },
       },
       {
-        $sort: { maxScore: -1 }, // Sort in descending order based on maxScore
+        $unwind: "$group_users",
       },
       {
-        $limit: 1, // Limit the result to one group (the highest score)
+        $group: {
+          _id: "$group",
+          groupName: { $first: "$group" },
+          totalScore: { $sum: { $toInt: "$group_users.points" } }, // Sum the points of group members
+        },
+      },
+      {
+        $sort: { totalScore: -1 },
+      },
+      {
+        $limit: 1,
       },
     ]);
 
@@ -55,11 +125,9 @@ module.exports.highest_score = async (req, res) => {
       return res.status(404).json({ message: "No groups found" });
     }
 
-    const highestScore = groupWithHighestScore[0].maxScore;
+    const highestScoreGroup = groupWithHighestScore[0];
 
-    const group = await Group.findOne({ group_score: highestScore });
-
-    res.status(200).json(group); // Return the group with the highest score as JSON
+    res.status(200).json(highestScoreGroup); // Return the group with the highest totalScore as JSON
   } catch (error) {
     res.status(500).json({
       message: "Failed to get group with highest score",

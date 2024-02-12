@@ -1,38 +1,77 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { DATA_URL } from "../config";
+import Cookies from "js-cookie";
+import { toast } from "react-toastify";
 
 const Home = () => {
+  const [user, setUser] = useState({});
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const userId = localStorage.getItem("userId");
+        const token = Cookies.get("jwt");
+        const response = await axios.get(`${DATA_URL}api/get-user/${userId}`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+        if (response.status === 200) {
+          setUser(response.data);
+        }
+      } catch (error) {
+        console.error("Error fetching user:", error);
+        return toast.error("Failed to fetch user");
+      }
+    };
+
+    fetchUser();
+  }, []);
+
   return (
     <div className="dashboard">
       <header className="dash-header">
         <img
           className="dash-img"
-          src="https://images.subsplash.com/image.jpg?id=13c38c4b-5360-4116-b151-6d3cf1cbbf36&w=1280&h=720"
-          alt="Dashboard Image"
+          src="https://www.clipartmax.com/png/middle/303-3033117_cross-and-bible-designed-logo-cross.png"
+          alt="Dashboard"
         />
-        <nav className="dash-nav">
-          <a className="dash-nav-link" href="/login">
-            Login
-          </a>
-          <a className="dash-nav-link" href="/signup">
-            Signup
-          </a>
-        </nav>
       </header>
       <main className="dash-main">
-        <h2>Summary of 1 Timothy</h2>
-        <p>Dashboard content goes here...</p>
-
-        <video controls className="dashboard-video">
-          <source
-            src="https://youtu.be/7RoqnGcEjcs?si=8mA7-eSNQaaZz1Zu"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-        <div>
-          <h3>Click the link below to go to verses for the day</h3>
-          <div className="verse">
-            <h2>Verses for the Day</h2>
+        <h2>Starhub Bible Study App</h2>
+        <h3>Welcome {user.name}</h3>
+        <h4>1 Timothy 3:16-17</h4>
+        <p>
+          All scripture is given by inspiration of God, and is profitable for
+          doctrine, for reproof, for correction, for instruction in
+          righteousness: That the man of God may be perfect, throughly furnished
+          unto all good works.
+        </p>
+        <div className="home-video">
+          <iframe
+            loading="eager"
+            width="80%"
+            height="90%"
+            src="https://www.youtube.com/embed/Y71r-T98E2Q?si=qP2usFpdFqstaO81"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="flex-col-1">
+          <div className="col-1">
+            <h3>Your Streak is</h3>
+            <div className="streak">
+              <h1>{user.streak ? user.streak : 0}</h1>
+            </div>
+          </div>
+          <div className="col-1">
+            <h3>Your Point is</h3>
+            <div className="streak">
+              <h1>{user.points ? user.points : 0}</h1>
+            </div>
           </div>
         </div>
       </main>

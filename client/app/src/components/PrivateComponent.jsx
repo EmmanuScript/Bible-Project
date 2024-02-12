@@ -1,16 +1,22 @@
-// ProtectedRoute.js
-import React, { useContext } from "react";
-import { Navigate, Outlet } from "react-router-dom";
-import { AuthContext } from "../Providers/AuthProviders";
+import React, { useEffect } from "react";
+import { Navigate, useLocation } from "react-router-dom";
+import { useAuth } from "../Providers/AuthProviders";
 
-const ProtectedRoute = ({ children }) => {
-  const { isLoggedIn } = useContext(AuthContext);
+const PrivateRoute = ({ element }) => {
+  const { isAuthenticated, logout } = useAuth();
 
-  if (!isLoggedIn) {
-    return <Navigate to="/login" />;
+  const location = useLocation();
+
+  useEffect(() => {
+    console.log("Route changed:", location.pathname);
+    // You can perform any monitoring or tracking logic here
+  }, [location.pathname]);
+
+  if (isAuthenticated()) {
+    return element;
   }
-
-  return children || <Outlet />;
+  logout();
+  return <Navigate to="/login" state={{ from: window.location.pathname }} />;
 };
 
-export default ProtectedRoute;
+export default PrivateRoute;
