@@ -41,7 +41,7 @@ const Home = () => {
       <main className="dash-main">
         <h2>Starhub Bible Study App</h2>
         <h3>Welcome {user.name}</h3>
-        <h4>1 Timothy 3:16-17</h4>
+        <h4>2 Timothy 3:16-17</h4>
         <p>
           All scripture is given by inspiration of God, and is profitable for
           doctrine, for reproof, for correction, for instruction in
