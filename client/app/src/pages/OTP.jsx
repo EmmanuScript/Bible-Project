@@ -147,7 +147,7 @@ const OTPInput = ({ length = 6 }) => {
         {otp.map((digit, index) => (
           <input
             key={index}
-            type="text"
+            type="number"
             className="otp-input"
             value={digit}
             onChange={(e) => handleChange(index, e.target.value)}
