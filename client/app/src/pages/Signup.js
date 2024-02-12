@@ -88,7 +88,7 @@ function Signup() {
           />
 
           <input
-            type="text"
+            type="number"
             className="emailInput"
             placeholder="group"
             id="group"
