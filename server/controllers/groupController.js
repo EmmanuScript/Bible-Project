@@ -97,7 +97,7 @@ module.exports.group_highest_score = async (req, res) => {
     const groupWithHighestScore = await User.aggregate([
       {
         $lookup: {
-          from: "users", // Assuming your user collection is named "users"
+          from: "users",
           localField: "group",
           foreignField: "group",
           as: "group_users",
@@ -110,7 +110,7 @@ module.exports.group_highest_score = async (req, res) => {
         $group: {
           _id: "$group",
           groupName: { $first: "$group" },
-          totalScore: { $sum: { $toInt: "$group_users.points" } }, // Sum the points of group members
+          totalScore: { $sum: { $toInt: "$group_users.points" } },
         },
       },
       {

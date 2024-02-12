@@ -28,6 +28,10 @@ mongoose.connect(dbURI, {
   useFindAndModify: false,
 });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to Bible Study Project API");
+});
+
 // Registering the routers in app
 app.use("/api", userRoutes); // Assuming user routes are prefixed with '/api'
 app.use("/api", groupRoutes); // Assuming group routes are prefixed with '/api'
