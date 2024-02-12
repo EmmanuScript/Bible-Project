@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from "react";
 import { DATA_URL } from "../config";
 import Cookies from "js-cookie";
+import { toast } from "react-toastify";
 
 const AuthContext = createContext();
 
@@ -58,13 +59,15 @@ export const AuthProvider = ({ children }) => {
       } else {
         const data = await response.json();
         const errorObj = data.errors;
+        console.log(errorObj);
         for (const key in errorObj) {
-          if (errorObj.hasOwnProperty(key) && errorObj[key]) {
+          if (errorObj[key] !== "" && typeof errorObj[key] === "string") {
             setError(errorObj[key]);
+            toast(errorObj[key]);
           }
-          console.error("Login failed:", data.errors);
-          return false;
         }
+        console.error("Login failed:", data.errors);
+        return false;
       }
     } catch (error) {
       setError(error.message);
