@@ -6,7 +6,7 @@ import VerseItems from "../components/VerseItems"; // Import the VerseItems comp
 const VersePage = ({ dataArray }) => {
   return (
     <div>
-      <h2 className="verse-header">Ephesians for the Day</h2>
+      <h2 className="verse-header">Galatians for the Day</h2>
       <div className="verses-container">
         {dataArray.map((item, index) => (
           <Link key={index} to={`/verse/${item.id}`}>

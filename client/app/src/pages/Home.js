@@ -50,14 +50,13 @@ const Home = () => {
         </p>
         <div className="home-video">
           <iframe
-            loading="eager"
             width="80%"
             height="90%"
-            src="https://www.youtube.com/embed/Y71r-T98E2Q?si=qP2usFpdFqstaO81"
+            src="https://www.youtube.com/embed/vmx4UjRFp0M?si=pSuNjkxDLq3DMFHx"
             title="YouTube video player"
-            frameBorder="0"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
+            allowfullscreen
           ></iframe>
         </div>
         <div className="flex-col-1">
