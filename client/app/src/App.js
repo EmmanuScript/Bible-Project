@@ -13,6 +13,7 @@ import PrivateRoute from "./components/PrivateComponent";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AppRoutes from "./Providers/AuthRoutes";
+import CommentList from "./pages/Comments";
 
 // Assuming your VersePage component file name
 
@@ -44,7 +45,13 @@ function App() {
                         path="/quiz/:id"
                         element={<Quiz dataArray={bibleVerses} />}
                       />
+
                       <Route path="/home" element={<Home />} />
+                      <Route
+                        exact
+                        path="/comments/:id"
+                        element={<CommentList />}
+                      />
                       <Route path="/profile" element={<Profile />} />
                     </Routes>
                   </div>

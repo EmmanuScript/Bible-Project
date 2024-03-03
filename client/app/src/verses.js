@@ -584,4 +584,334 @@ const firstPeterVerses = [
   },
 ];
 
-export default firstPeterVerses;
+const firstJohnVerses = [
+  {
+    quizId: "1john-1",
+    id: "1",
+    verses:
+      "1 John 1:1-10 - That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. The life appeared; we have seen it and testify to it, and we proclaim to you the eternal life, which was with the Father and has appeared to us. We proclaim to you what we have seen and heard, so that you also may have fellowship with us. And our fellowship is with the Father and with his Son, Jesus Christ. We write this to make our joy complete. This is the message we have heard from him and declare to you: God is light; in him there is no darkness at all. If we claim to have fellowship with him and yet walk in the darkness, we lie and do not live out the truth. But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus, his Son, purifies us from all sin. If we claim to be without sin, we deceive ourselves and the truth is not in us. If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness. If we claim we have not sinned, we make him out to be a liar and his word is not in us.",
+    question: [
+      {
+        question: "What is proclaimed concerning the Word of life?",
+        options: [
+          "a. That it is a mystery",
+          "b. That it was with the Father",
+          "c. That it was from the beginning and has been seen, heard, and touched",
+          "d. That it is a myth",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What is God according to verse 1:5?",
+        options: [
+          "a. Darkness",
+          "b. Light",
+          "c. A distant figure",
+          "d. Absent",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What happens if we claim to be without sin according to verse 1:8?",
+        options: [
+          "a. We are truthful",
+          "b. We deceive ourselves",
+          "c. We are righteous",
+          "d. We are forgiven",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What does God do if we confess our sins according to verse 1:9?",
+        options: [
+          "a. He ignores us",
+          "b. He condemns us",
+          "c. He forgives us and purifies us from all unrighteousness",
+          "d. He punishes us",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "1john-2",
+    id: "2",
+    verses:
+      "1 John 2:1-17 - My dear children, I write this to you so that you will not sin. But if anybody does sin, we have an advocate with the Father—Jesus Christ, the Righteous One. He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world. We know that we have come to know him if we keep his commands. Whoever says, 'I know him,' but does not do what he commands is a liar, and the truth is not in that person. But if anyone obeys his word, love for God is truly made complete in them. This is how we know we are in him: Whoever claims to live in him must live as Jesus did. Dear friends, I am not writing you a new command but an old one, which you have had since the beginning. This old command is the message you have heard. Yet I am writing you a new command; its truth is seen in him and in you, because the darkness is passing and the true light is already shining. Anyone who claims to be in the light but hates a brother or sister is still in the darkness. Anyone who loves their brother and sister lives in the light, and there is nothing in them to make them stumble. But anyone who hates a brother or sister is in the darkness and walks around in the darkness. They do not know where they are going, because the darkness has blinded them. I write to you, dear children, because your sins have been forgiven on account of his name. I write to you, fathers, because you have known him who is from the beginning. I write to you, young men, because you have overcome the evil one. I write to you, dear children, because you have known the Father. I write to you, fathers, because you have known him who is from the beginning. I write to you, young men, because you are strong, and the word of God lives in you, and you have overcome the evil one. Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. For everything in the world—the lust of the flesh, the lust of the eyes, and the pride of life—comes not from the Father but from the world. The world and its desires pass away, but whoever does the will of God lives forever.",
+    question: [
+      {
+        question: "Who is our advocate with the Father?",
+        options: [
+          "a. John the Baptist",
+          "b. Jesus Christ",
+          "c. Moses",
+          "d. Peter",
+        ],
+        answer: "b",
+      },
+      {
+        question: "How do we know that we have come to know Jesus?",
+        options: [
+          "a. By performing miracles",
+          "b. By keeping his commands",
+          "c. By accumulating wealth",
+          "d. By gaining popularity",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What is the new commandment mentioned in verse 2:8?",
+        options: [
+          "a. Love your enemies",
+          "b. Hate your brother or sister",
+          "c. Live in darkness",
+          "d. Live as Jesus did",
+        ],
+        answer: "d",
+      },
+      {
+        question:
+          "What comes from the world and does not come from the Father according to verse 2:16?",
+        options: [
+          "a. Wisdom",
+          "b. Lust of the flesh, lust of the eyes, and pride of life",
+          "c. Faith",
+          "d. Hope",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  {
+    quizId: "1john-3",
+    id: 3,
+    verses:
+      "1 John 2:18-29 Dear children, this is the last hour; and as you have heard that the antichrist is coming, even now many antichrists have come. This is how we know it is the last hour. They went out from us, but they did not really belong to us. For if they had belonged to us, they would have remained with us; but their going showed that none of them belonged to us. But you have an anointing from the Holy One, and all of you know the truth. I do not write to you because you do not know the truth, but because you do know it and because no lie comes from the truth. Who is the liar? It is whoever denies that Jesus is the Christ. Such a person is the antichrist—denying the Father and the Son. No one who denies the Son has the Father; whoever acknowledges the Son has the Father also. As for you, see that what you have heard from the beginning remains in you. If it does, you also will remain in the Son and in the Father. And this is what he promised us—eternal life. I am writing these things to you about those who are trying to lead you astray. As for you, the anointing you received from him remains in you, and you do not need anyone to teach you. But as his anointing teaches you about all things and as that anointing is real, not counterfeit—just as it has taught you, remain in him. And now, dear children, continue in him, so that when he appears we may be confident and unashamed before him at his coming. If you know that he is righteous, you know that everyone who does what is right has been born of him.",
+    questions: [
+      {
+        question:
+          "According to verse 2:18, what indication suggests that it is the last hour?",
+        options: [
+          "a. The arrival of many antichrists",
+          "b. The preaching of the Gospel to all nations",
+          "c. The establishment of peace on earth",
+          "d. The cessation of persecution against Christians",
+        ],
+        answer: "a",
+      },
+      {
+        question:
+          "What does the presence of the anointing from the Holy One enable believers to know, according to verse 2:20?",
+        options: [
+          "a. All future events",
+          "b. The truth",
+          "c. The identity of the antichrist",
+          "d. The mysteries of the universe",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "Who is considered the antichrist, as mentioned in verse 2:22?",
+        options: [
+          "a. Anyone who opposes Christian teachings",
+          "b. Those who deny that Jesus is the Christ",
+          "c. The leaders of false religions",
+          "d. None of the above",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "According to verse 2:27, why do believers not need anyone to teach them?",
+        options: [
+          "a. Because they have already learned everything",
+          "b. Because they have an anointing from the Holy One",
+          "c. Because they are intellectually superior",
+          "d. Because they have access to all knowledge through books",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What should believers continue in, as instructed in verse 2:28?",
+        options: [
+          "a. Their own ways",
+          "b. The traditions of men",
+          "c. In Him (Christ)",
+          "d. The teachings of the antichrists",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "1john-4",
+    id: "4",
+    verses:
+      "1 John 3:1-24 - See what great love the Father has lavished on us, that we should be called children of God! And that is what we are! The reason the world does not know us is that it did not know him. Dear friends, now we are children of God, and what we will be has not yet been made known. But we know that when Christ appears, we shall be like him, for we shall see him as he is. All who have this hope in him purify themselves, just as he is pure. Everyone who sins breaks the law; in fact, sin is lawlessness. But you know that he appeared so that he might take away our sins. And in him is no sin. No one who lives in him keeps on sinning. No one who continues to sin has either seen him or known him. Dear children, do not let anyone lead you astray. The one who does what is right is righteous, just as he is righteous. The one who does what is sinful is of the devil, because the devil has been sinning from the beginning. The reason the Son of God appeared was to destroy the devil’s work. No one who is born of God will continue to sin, because God’s seed remains in them; they cannot go on sinning, because they have been born of God. This is how we know who the children of God are and who the children of the devil are: Anyone who does not do what is right is not God’s child, nor is anyone who does not love their brother and sister. For this is the message you heard from the beginning: We should love one another. Do not be like Cain, who belonged to the evil one and murdered his brother. And why did he murder him? Because his own actions were evil and his brother’s were righteous. Do not be surprised, my brothers and sisters, if the world hates you. We know that we have passed from death to life, because we love each other. Anyone who does not love remains in death. Anyone who hates a brother or sister is a murderer, and you know that no murderer has eternal life residing in him. This is how we know what love is: Jesus Christ laid down his life for us. And we ought to lay down our lives for our brothers and sisters. If anyone has material possessions and sees a brother or sister in need but has no pity on them, how can the love of God be in that person? Dear children, let us not love with words or speech but with actions and in truth. This is how we know that we belong to the truth and how we set our hearts at rest in his presence: If our hearts condemn us, we know that God is greater than our hearts, and he knows everything. Dear friends, if our hearts do not condemn us, we have confidence before God and receive from him anything we ask, because we keep his commands and do what pleases him. And this is his command: to believe in the name of his Son, Jesus Christ, and to love one another as he commanded us. The one who keeps God’s commands lives in him, and he in them. And this is how we know that he lives in us: We know it by the Spirit he gave us.",
+    question: [
+      {
+        question:
+          "What does John say about the love lavished on believers by the Father?",
+        options: [
+          "a. It is conditional",
+          "b. It is limited",
+          "c. It is great",
+          "d. It is non-existent",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "According to verse 3:2, what will believers be like when Christ appears?",
+        options: [
+          "a. They will remain the same",
+          "b. They will be like angels",
+          "c. They will be like Christ",
+          "d. They will cease to exist",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What is the reason given for the Son of God appearing?",
+        options: [
+          "a. To accumulate wealth",
+          "b. To establish political power",
+          "c. To take away our sins",
+          "d. To enforce strict laws",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What command does John give concerning love in verse 3:11?",
+        options: [
+          "a. Love only those who agree with you",
+          "b. Love only your family members",
+          "c. Love one another",
+          "d. Love only when it is convenient",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "According to verse 3:24, what enables believers to know that God lives in them?",
+        options: [
+          "a. Their wealth",
+          "b. Their intelligence",
+          "c. Their good deeds",
+          "d. The Spirit God gave them",
+        ],
+        answer: "d",
+      },
+    ],
+  },
+  {
+    quizId: "1john-5",
+    id: "5",
+    verses:
+      "1 John 4:1-21 - Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world. This is how you can recognize the Spirit of God: Every spirit that acknowledges that Jesus Christ has come in the flesh is from God, but every spirit that does not acknowledge Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming and even now is already in the world. You, dear children, are from God and have overcome them, because the one who is in you is greater than the one who is in the world. They are from the world and therefore speak from the viewpoint of the world, and the world listens to them. We are from God, and whoever knows God listens to us; but whoever is not from God does not listen to us. This is how we recognize the Spirit of truth and the spirit of falsehood. Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God. Whoever does not love does not know God, because God is love. This is how God showed his love among us: He sent his one and only Son into the world that we might live through him. This is love: not that we loved God, but that he loved us and sent his Son as an atoning sacrifice for our sins. Dear friends, since God so loved us, we also ought to love one another. No one has ever seen God; but if we love one another, God lives in us and his love is made complete in us. This is how we know that we live in him and he in us: He has given us of his Spirit. And we have seen and testify that the Father has sent his Son to be the Savior of the world. If anyone acknowledges that Jesus is the Son of God, God lives in them and they in God. And so we know and rely on the love God has for us. God is love. Whoever lives in love lives in God, and God in them. This is how love is made complete among us so that we will have confidence on the day of judgment: In this world we are like Jesus. There is no fear in love. But perfect love drives out fear, because fear has to do with punishment. The one who fears is not made perfect in love. We love because he first loved us. Whoever claims to love God yet hates a brother or sister is a liar. For whoever does not love their brother and sister, whom they have seen, cannot love God, whom they have not seen. And he has given us this command: Anyone who loves God must also love their brother and sister.",
+    question: [
+      {
+        question:
+          "How can we recognize the Spirit of God according to verse 4:2?",
+        options: [
+          "a. By their appearance",
+          "b. By their wealth",
+          "c. By their acknowledgment that Jesus Christ has come in the flesh",
+          "d. By their worldly success",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What is the essence of God according to verse 4:8?",
+        options: ["a. Power", "b. Wisdom", "c. Love", "d. Justice"],
+        answer: "c",
+      },
+      {
+        question:
+          "What did God send his Son into the world to do according to verse 4:9?",
+        options: [
+          "a. To conquer nations",
+          "b. To accumulate wealth",
+          "c. To be an atoning sacrifice for our sins",
+          "d. To establish a kingdom on earth",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What drives out fear according to verse 4:18?",
+        options: ["a. Wealth", "b. Love", "c. Power", "d. Knowledge"],
+        answer: "b",
+      },
+      {
+        question: "What command does verse 4:21 give?",
+        options: [
+          "a. To accumulate possessions",
+          "b. To pursue worldly success",
+          "c. To love God and also love their brother and sister",
+          "d. To seek power and authority",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "1john-6",
+    id: "6",
+    verses:
+      "1 John 5:1-21 - Everyone who believes that Jesus is the Christ is born of God, and everyone who loves the father loves his child as well. This is how we know that we love the children of God: by loving God and carrying out his commands. In fact, this is love for God: to keep his commands. And his commands are not burdensome, for everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith. Who is it that overcomes the world? Only the one who believes that Jesus is the Son of God. This is the one who came by water and blood—Jesus Christ. He did not come by water only, but by water and blood. And it is the Spirit who testifies, because the Spirit is the truth. For there are three that testify: the Spirit, the water and the blood; and the three are in agreement. We accept human testimony, but God’s testimony is greater because it is the testimony of God, which he has given about his Son. Whoever believes in the Son of God accepts this testimony. Whoever does not believe God has made him out to be a liar, because they have not believed the testimony God has given about his Son. And this is the testimony: God has given us eternal life, and this life is in his Son. Whoever has the Son has life; whoever does not have the Son of God does not have life. I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life. This is the confidence we have in approaching God: that if we ask anything according to his will, he hears us. And if we know that he hears us—whatever we ask—we know that we have what we asked of him. If you see any brother or sister commit a sin that does not lead to death, you should pray and God will give them life. I refer to those whose sin does not lead to death. There is a sin that leads to death. I am not saying that you should pray about that. All wrongdoing is sin, and there is sin that does not lead to death. We know that anyone born of God does not continue to sin; the One who was born of God keeps them safe, and the evil one cannot harm them. We know that we are children of God, and that the whole world is under the control of the evil one. We know also that the Son of God has come and has given us understanding, so that we may know him who is true. And we are in him who is true by being in his Son Jesus Christ. He is the true God and eternal life. Dear children, keep yourselves from idols.",
+    question: [
+      {
+        question: "What is the victory that has overcome the world?",
+        options: ["a. Wealth", "b. Power", "c. Our faith", "d. Knowledge"],
+        answer: "c",
+      },
+      {
+        question: "What three things testify according to verse 5:8?",
+        options: [
+          "a. The earth, the sun, and the moon",
+          "b. The Spirit, the water, and the blood",
+          "c. Love, hope, and faith",
+          "d. The angels, the saints, and the prophets",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does verse 5:12 say about having the Son of God?",
+        options: [
+          "a. It brings worldly success",
+          "b. It guarantees earthly riches",
+          "c. It ensures eternal life",
+          "d. It leads to temporal pleasures",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What gives believers confidence in approaching God according to verse 5:14-15?",
+        options: [
+          "a. Their own righteousness",
+          "b. Their material possessions",
+          "c. Knowing that God hears their prayers according to His will",
+          "d. The approval of others",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What warning does verse 5:21 provide?",
+        options: [
+          "a. To pursue idols",
+          "b. To reject God's commands",
+          "c. To seek worldly pleasures",
+          "d. To keep away from idols",
+        ],
+        answer: "d",
+      },
+    ],
+  },
+];
+
+export default firstJohnVerses;

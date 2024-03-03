@@ -1,7 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const userRoutes = require("./routes/authRoutes"); // Assuming your user routes are in userRoutes file
-const groupRoutes = require("./routes/groupRoutes"); // Assuming your group routes are in groupRoutes file
+const groupRoutes = require("./routes/groupRoutes");
+const commentRoutes = require("./routes/commentRoutes");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 const cors = require("cors");
@@ -35,6 +36,7 @@ app.get("/", (req, res) => {
 // Registering the routers in app
 app.use("/api", userRoutes); // Assuming user routes are prefixed with '/api'
 app.use("/api", groupRoutes); // Assuming group routes are prefixed with '/api'
+app.use("/api", commentRoutes); // Assuming group routes are prefixed with '/api'
 
 app.listen(port, () => {
   console.log("Server is running on port " + port + "...");
