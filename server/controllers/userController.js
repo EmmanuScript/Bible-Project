@@ -1,6 +1,7 @@
 const path = require("path");
 const User = require("../model/User");
 const nodemailer = require("nodemailer");
+require("dotenv").config();
 
 module.exports.get_users = async (req, res) => {
   try {
@@ -266,13 +267,13 @@ module.exports.calculate_points = async (req, res) => {
 };
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 465,
+  host: process.env.MAIL_URL,
+  port: process.env.MAIL_PORT,
   secure: true,
   auth: {
     // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-    user: "oanjoyin@gmail.com",
-    pass: "brqqlxjvdfmxsarr",
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
   tls: {
     rejectUnauthorized: false,
@@ -292,7 +293,7 @@ module.exports.forgot_password = async (req, res) => {
 
     // Send password reset email
     const mailOptions = {
-      from: "oanjoyin@gmail.com",
+      from: process.env.EMAIL,
       to: email,
       subject: "Reset your password",
       text: "Click the link to reset your password.",
