@@ -1,2 +1,2 @@
 // config.js
-export const DATA_URL = "http://localhost:80/";
+export const DATA_URL = "https://bible-project-api.vercel.app/";
