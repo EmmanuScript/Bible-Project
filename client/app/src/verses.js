@@ -914,4 +914,56 @@ const firstJohnVerses = [
   },
 ];
 
-export default firstJohnVerses;
+const secondJohnVerses = [
+  {
+    quizId: "2john-1",
+    id: "1",
+    verses:
+      "2 John 1:1-13 - The elder, To the lady chosen by God and to her children, whom I love in the truth—and not I only, but also all who know the truth—because of the truth, which lives in us and will be with us forever: Grace, mercy and peace from God the Father and from Jesus Christ, the Father’s Son, will be with us in truth and love. It has given me great joy to find some of your children walking in the truth, just as the Father commanded us. And now, dear lady, I am not writing you a new command but one we have had from the beginning. I ask that we love one another. And this is love: that we walk in obedience to his commands. As you have heard from the beginning, his command is that you walk in love. I say this because many deceivers, who do not acknowledge Jesus Christ as coming in the flesh, have gone out into the world. Any such person is the deceiver and the antichrist. Watch out that you do not lose what we have worked for, but that you may be rewarded fully. Anyone who runs ahead and does not continue in the teaching of Christ does not have God; whoever continues in the teaching has both the Father and the Son. If anyone comes to you and does not bring this teaching, do not take them into your house or welcome them. Anyone who welcomes them shares in their wicked work. I have much to write to you, but I do not want to use paper and ink. Instead, I hope to visit you and talk with you face to face, so that our joy may be complete. The children of your sister, who is chosen by God, send their greetings.",
+    question: [
+      {
+        question: "What command does the elder emphasize?",
+        options: [
+          "a. To gain worldly wealth",
+          "b. To walk in obedience to God's commands and to love one another",
+          "c. To prioritize personal ambitions",
+          "d. To pursue earthly desires",
+        ],
+        answer: "b",
+      },
+      {
+        question: "Who are described as deceivers and antichrists?",
+        options: [
+          "a. Those who acknowledge Jesus Christ as coming in the flesh",
+          "b. Those who deny Jesus Christ as coming in the flesh",
+          "c. Those who spread love and truth",
+          "d. Those who perform miracles",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What caution does the elder give regarding those who do not bring the teaching of Christ in verse 1:10-11?",
+        options: [
+          "a. To welcome them warmly",
+          "b. To invite them into your house",
+          "c. To avoid them and not share in their wicked work",
+          "d. To support them financially",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does the elder express a desire for?",
+        options: [
+          "a. To continue writing letters",
+          "b. To visit and talk face to face",
+          "c. To send more greetings",
+          "d. To receive gifts",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+];
+
+export default secondJohnVerses;
