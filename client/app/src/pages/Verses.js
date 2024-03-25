@@ -6,7 +6,7 @@ import VerseItems from "../components/VerseItems"; // Import the VerseItems comp
 const VersePage = ({ dataArray }) => {
   return (
     <div>
-      <h2 className="verse-header">1 John for the Day</h2>
+      <h2 className="verse-header">Verse for the Day</h2>
 
       <div className="verses-container">
         {dataArray.map((item, index) => (

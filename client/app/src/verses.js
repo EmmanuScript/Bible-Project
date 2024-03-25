@@ -966,4 +966,146 @@ const secondJohnVerses = [
   },
 ];
 
-export default secondJohnVerses;
+const secondPeter = [
+  {
+    quizId: "2peter-1",
+    id: "1",
+    verses:
+      "2 Peter 1:1-21 - Simon Peter, a servant and apostle of Jesus Christ, To those who through the righteousness of our God and Savior Jesus Christ have received a faith as precious as ours: Grace and peace be yours in abundance through the knowledge of God and of Jesus our Lord. His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness. Through these he has given us his very great and precious promises, so that through them you may participate in the divine nature, having escaped the corruption in the world caused by evil desires. For this very reason, make every effort to add to your faith goodness; and to goodness, knowledge; and to knowledge, self-control; and to self-control, perseverance; and to perseverance, godliness; and to godliness, mutual affection; and to mutual affection, love. For if you possess these qualities in increasing measure, they will keep you from being ineffective and unproductive in your knowledge of our Lord Jesus Christ. But whoever does not have them is nearsighted and blind, forgetting that they have been cleansed from their past sins. Therefore, my brothers and sisters, make every effort to confirm your calling and election. For if you do these things, you will never stumble, and you will receive a rich welcome into the eternal kingdom of our Lord and Savior Jesus Christ. So I will always remind you of these things, even though you know them and are firmly established in the truth you now have. I think it is right to refresh your memory as long as I live in the tent of this body, because I know that I will soon put it aside, as our Lord Jesus Christ has made clear to me. And I will make every effort to see that after my departure you will always be able to remember these things. For we did not follow cleverly devised stories when we told you about the coming of our Lord Jesus Christ in power, but we were eyewitnesses of his majesty. He received honor and glory from God the Father when the voice came to him from the Majestic Glory, saying, 'This is my Son, whom I love; with him I am well pleased.' We ourselves heard this voice that came from heaven when we were with him on the sacred mountain. We also have the prophetic message as something completely reliable, and you will do well to pay attention to it, as to a light shining in a dark place, until the day dawns and the morning star rises in your hearts. Above all, you must understand that no prophecy of Scripture came about by the prophet’s own interpretation of things. For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit.",
+    question: [
+      {
+        question: "What has God's divine power given us?",
+        options: [
+          "a. Wealth and prosperity",
+          "b. Everything we need for a godly life",
+          "c. Material possessions",
+          "d. Political power",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "According to Peter, what should we make every effort to add to our faith?",
+        options: [
+          "a. Wealth",
+          "b. Knowledge",
+          "c. Good looks",
+          "d. Social status",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What does Peter say will keep us from being ineffective and unproductive?",
+        options: [
+          "a. Possessing material wealth",
+          "b. Possessing political power",
+          "c. Possessing godliness and mutual affection",
+          "d. Possessing worldly desires",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Peter remind his readers of?",
+        options: [
+          "a. Recent events",
+          "b. Things they don't need to know",
+          "c. Things they already know and are established in",
+          "d. Future predictions",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2peter-2",
+    id: "2",
+    verses:
+      "2 Peter 2:1-22 - But there were also false prophets among the people, just as there will be false teachers among you. They will secretly introduce destructive heresies, even denying the sovereign Lord who bought them—bringing swift destruction on themselves. Many will follow their depraved conduct and will bring the way of truth into disrepute. In their greed these teachers will exploit you with fabricated stories. Their condemnation has long been hanging over them, and their destruction has not been sleeping. For if God did not spare angels when they sinned, but sent them to hell, putting them in chains of darkness to be held for judgment; if he did not spare the ancient world when he brought the flood on its ungodly people, but protected Noah, a preacher of righteousness, and seven others; if he condemned the cities of Sodom and Gomorrah by burning them to ashes, and made them an example of what is going to happen to the ungodly; and if he rescued Lot, a righteous man, who was distressed by the depraved conduct of the lawless (for that righteous man, living among them day after day, was tormented in his righteous soul by the lawless deeds he saw and heard)—if this is so, then the Lord knows how to rescue the godly from trials and to hold the unrighteous for punishment on the day of judgment. This is especially true of those who follow the corrupt desire of the flesh and despise authority. Bold and arrogant, they are not afraid to heap abuse on celestial beings; yet even angels, although they are stronger and more powerful, do not heap abuse on such beings when bringing judgment on them from the Lord. But these people blaspheme in matters they do not understand. They are like unreasoning animals, creatures of instinct, born only to be caught and destroyed, and like animals they too will perish. They will be paid back with harm for the harm they have done. Their idea of pleasure is to carouse in broad daylight. They are blots and blemishes, reveling in their pleasures while they feast with you. With eyes full of adultery, they never stop sinning; they seduce the unstable; they are experts in greed—an accursed brood! They have left the straight way and wandered off to follow the way of Balaam son of Bezer, who loved the wages of wickedness. But he was rebuked for his wrongdoing by a donkey—an animal without speech—who spoke with a human voice and restrained the prophet’s madness. These people are springs without water and mists driven by a storm. Blackest darkness is reserved for them. For they mouth empty, boastful words and, by appealing to the lustful desires of the flesh, they entice people who are just escaping from those who live in error. They promise them freedom, while they themselves are slaves of depravity—for 'people are slaves to whatever has mastered them.' If they have escaped the corruption of the world by knowing our Lord and Savior Jesus Christ and are again entangled in it and are overcome, they are worse off at the end than they were at the beginning. It would have been better for them not to have known the way of righteousness, than to have known it and then to turn their backs on the sacred command that was passed on to them. Of them the proverbs are true: 'A dog returns to its vomit,' and, 'A sow that is washed returns to her wallowing in the mud.'",
+    question: [
+      {
+        question: "What will false teachers introduce among the people?",
+        options: [
+          "a. Constructive doctrines",
+          "b. Destructive heresies",
+          "c. Peace and harmony",
+          "d. Love and compassion",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "According to Peter, what did God do to angels when they sinned?",
+        options: [
+          "a. He rewarded them",
+          "b. He ignored their sins",
+          "c. He sent them to hell",
+          "d. He praised them",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What analogy does Peter use to describe false teachers?",
+        options: [
+          "a. Wise scholars",
+          "b. Reasoning animals",
+          "c. Angels of light",
+          "d. Celestial beings",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What fate does Peter say awaits false teachers?",
+        options: [
+          "a. They will be rewarded",
+          "b. They will perish in darkness",
+          "c. They will inherit the kingdom",
+          "d. They will become leaders",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+
+  {
+    quizId: "3john-1",
+    id: "3",
+    verses:
+      "3 John 1:1-15 - The elder, To my dear friend Gaius, whom I love in the truth. Dear friend, I pray that you may enjoy good health and that all may go well with you, even as your soul is getting along well. It gave me great joy when some believers came and testified about your faithfulness to the truth, telling how you continue to walk in it. I have no greater joy than to hear that my children are walking in the truth. Dear friend, you are faithful in what you are doing for the brothers and sisters, even though they are strangers to you. They have told the church about your love. Please send them on their way in a manner that honors God. It was for the sake of the Name that they went out, receiving no help from the pagans. We ought therefore to show hospitality to such people so that we may work together for the truth. I wrote to the church, but Diotrephes, who loves to be first, will not welcome us. So when I come, I will call attention to what he is doing, spreading malicious nonsense about us. Not satisfied with that, he even refuses to welcome other believers. He also stops those who want to do so and puts them out of the church. Dear friend, do not imitate what is evil but what is good. Anyone who does what is good is from God. Anyone who does what is evil has not seen God. Demetrius is well spoken of by everyone—and even by the truth itself. We also speak well of him, and you know that our testimony is true. I have much to write to you, but I do not want to do so with pen and ink. I hope to see you soon, and we will talk face to face. Peace to you. The friends here send their greetings. Greet the friends there by name.",
+    question: [
+      {
+        question: "Who is the letter addressed to?",
+        options: ["a. John", "b. Gaius", "c. Diotrephes", "d. Demetrius"],
+        answer: "b",
+      },
+      {
+        question: "What gave the elder great joy?",
+        options: [
+          "a. Worldly success",
+          "b. Testimonies of Gaius' faithfulness to the truth",
+          "c. Material possessions",
+          "d. Personal achievements",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What does the elder encourage Gaius to do for the brothers and sisters?",
+        options: [
+          "a. Ignore them",
+          "b. Show them hostility",
+          "c. Show them love and hospitality",
+          "d. Avoid them",
+        ],
+        answer: "c",
+      },
+      {
+        question: "Who does the elder praise besides Gaius?",
+        options: ["a. Diotrephes", "b. Demetrius", "c. Strangers", "d. Pagans"],
+        answer: "b",
+      },
+    ],
+  },
+];
+
+export default secondPeter;
