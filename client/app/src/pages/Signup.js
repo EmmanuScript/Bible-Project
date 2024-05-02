@@ -13,7 +13,6 @@ function Signup() {
     name: "",
     email: "",
     password: "",
-    group: "",
   });
   const [loading, setLoading] = useState(false);
 
@@ -24,7 +23,7 @@ function Signup() {
     }));
   };
 
-  const { name, email, password, group } = formData;
+  const { name, email, password } = formData;
 
   const navigate = useNavigate();
 
@@ -45,7 +44,6 @@ function Signup() {
 
     const formData = {
       name: name,
-      group: group,
       email: email,
       password: password,
     };
@@ -87,14 +85,14 @@ function Signup() {
             onChange={onChange}
           />
 
-          <input
+          {/* <input
             type="number"
             className="emailInput"
             placeholder="group"
             id="group"
             value={group}
             onChange={onChange}
-          />
+          /> */}
 
           <div className="passwordInputDiv">
             <input

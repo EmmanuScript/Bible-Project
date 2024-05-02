@@ -76,14 +76,20 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
+  function getRandomNumber() {
+    return Math.floor(Math.random() * 8) + 1;
+  }
+
   const signup = async (formData) => {
     try {
+      const group = getRandomNumber();
+      const updatedFrom = { ...formData, group };
       const response = await fetch(`${DATA_URL}api/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(updatedFrom),
       });
 
       if (response.ok) {

@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 
 const Home = () => {
   const [user, setUser] = useState({});
+  const [verse, setVerse] = useState({});
 
   useEffect(() => {
     const fetchUser = async () => {
@@ -26,6 +27,20 @@ const Home = () => {
       }
     };
 
+    const dailyVerse = async () => {
+      try {
+        const verseRes = await axios.get(
+          "https://beta.ourmanna.com/api/v1/get?format=json&order=daily"
+        );
+
+        setVerse(verseRes.data.verse.details);
+      } catch (e) {
+        console.error("Error fetching user:", e);
+        return toast.error("Failed to fetch verse");
+      }
+    };
+
+    dailyVerse();
     fetchUser();
   }, []);
 
@@ -41,13 +56,9 @@ const Home = () => {
       <main className="dash-main">
         <h2>Starhub Bible Study App</h2>
         <h3>Welcome {user.name}</h3>
-        <h4>2 Timothy 3:16-17</h4>
-        <p>
-          All scripture is given by inspiration of God, and is profitable for
-          doctrine, for reproof, for correction, for instruction in
-          righteousness: That the man of God may be perfect, throughly furnished
-          unto all good works.
-        </p>
+        <h4>Verse for the day</h4>
+        <h4>{verse.reference}</h4>
+        <p>{verse.text}</p>
         <div className="home-video">
           <iframe
             width="80%"

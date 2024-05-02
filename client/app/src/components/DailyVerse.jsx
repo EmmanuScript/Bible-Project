@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router-dom";
 const VerseDetail = ({ dataArray }) => {
   const { id, quizId } = useParams();
 
+  console.log(quizId);
+
   // Find the selected verse from dataArray based on id
   const selectedVerse = dataArray.find((verse) => verse.id === id);
 
@@ -15,7 +17,10 @@ const VerseDetail = ({ dataArray }) => {
       {selectedVerse ? (
         <div className="verse-container">
           <h3>Day {selectedVerse.id}</h3>
-          <p className="verse-text">{selectedVerse.verses}</p>
+          <div
+            className="verse-text"
+            dangerouslySetInnerHTML={{ __html: selectedVerse.verses }}
+          ></div>
           {/* Add more details if needed */}
         </div>
       ) : (
@@ -26,9 +31,9 @@ const VerseDetail = ({ dataArray }) => {
         <Link to={`/quiz/${id}`} className="quiz-button">
           Go to Quiz
         </Link>
-        {/* <Link to={`/comments/${id}`} className="quiz-button">
+        <Link to={`/comments/${selectedVerse.quizId}`} className="quiz-button">
           Go to Comments
-        </Link> */}
+        </Link>
       </div>
     </div>
   );

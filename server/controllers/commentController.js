@@ -43,6 +43,37 @@ module.exports.postComments = async (req, res) => {
   }
 };
 
+// Route to edit comment
+module.exports.editComment = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.id);
+    if (comment) {
+      comment.text = req.body.text;
+      const updatedComment = await comment.save();
+      res.json(updatedComment);
+    } else {
+      res.status(404).json({ message: "Comment not found" });
+    }
+  } catch (err) {
+    res.status(400).json({ message: err.message });
+  }
+};
+
+//Route to delete comments
+module.exports.deleteComment = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.id);
+    if (comment) {
+      await comment.remove();
+      res.json({ message: "Comment deleted" });
+    } else {
+      res.status(404).json({ message: "Comment not found" });
+    }
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
 // Route to reply to a comment
 module.exports.postReply = async (req, res) => {
   try {
@@ -50,13 +81,56 @@ module.exports.postReply = async (req, res) => {
     if (!comment) {
       return res.status(404).json({ message: "Comment not found" });
     }
+
+    const user = await User.findById(req.body.userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
     comment.replies.push({
       userId: req.body.userId,
       text: req.body.text,
+      userName: user.name,
     });
     const updatedComment = await comment.save();
     res.status(201).json(updatedComment);
   } catch (err) {
     res.status(400).json({ message: err.message });
+  }
+};
+
+// Route to editing a reply
+module.exports.editReply = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.commentId);
+    if (comment) {
+      const reply = comment.replies.id(req.params.replyId);
+      if (reply) {
+        reply.text = req.body.text;
+        const updatedComment = await comment.save();
+        res.json(updatedComment);
+      } else {
+        res.status(404).json({ message: "Reply not found" });
+      }
+    } else {
+      res.status(404).json({ message: "Comment not found" });
+    }
+  } catch (err) {
+    res.status(400).json({ message: err.message });
+  }
+};
+
+//Route to delete reply
+module.exports.deleteReply = async (req, res) => {
+  try {
+    const comment = await Comment.findById(req.params.commentId);
+    if (comment) {
+      comment.replies.pull(req.params.replyId);
+      const updatedComment = await comment.save();
+      res.json(updatedComment);
+    } else {
+      res.status(404).json({ message: "Comment not found" });
+    }
+  } catch (err) {
+    res.status(500).json({ message: err.message });
   }
 };
