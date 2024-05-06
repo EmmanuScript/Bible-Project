@@ -63,7 +63,7 @@ const Home = () => {
           <iframe
             width="80%"
             height="90%"
-            src="https://www.youtube.com/embed/ej_6dVdJSIU?si=JasD9cELF4xN_gAL"
+            src="https://www.youtube.com/embed/yiHf8klCCc4?si=KXntNGJ-mhYOgQ08"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
