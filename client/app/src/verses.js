@@ -3441,6 +3441,82 @@ const first_corinthians = [
       },
     ],
   },
+  // Chapter 16
+  {
+    quizId: "1corinthians-16",
+    id: "16",
+    verses: `
+    <h2>1 Corinthians 16:1-24</h2>
+    <p><strong>1 Now about the collection for the Lord’s people: Do what I told the Galatian churches to do.</strong></p>
+    <p><strong>2 On the first day of every week, each one of you should set aside a sum of money in keeping with your income, saving it up, so that when I come no collections will have to be made.</strong></p>
+    <p><strong>3 Then, when I arrive, I will give letters of introduction to the men you approve and send them with your gift to Jerusalem.</strong></p>
+    <p><strong>4 If it seems advisable for me to go also, they will accompany me.</strong></p>
+    <p><strong>5 After I go through Macedonia, I will come to you—for I will be going through Macedonia.</strong></p>
+    <p><strong>6 Perhaps I will stay with you for a while, or even spend the winter, so that you can help me on my journey, wherever I go.</strong></p>
+    <p><strong>7 For I do not want to see you now and make only a passing visit; I hope to spend some time with you, if the Lord permits.</strong></p>
+    <p><strong>8 But I will stay on at Ephesus until Pentecost,</strong></p>
+    <p><strong>9 because a great door for effective work has opened to me, and there are many who oppose me.</strong></p>
+    <p><strong>10 When Timothy comes, see to it that he has nothing to fear while he is with you, for he is carrying on the work of the Lord, just as I am.</strong></p>
+    <p><strong>11 No one, then, should treat him with contempt. Send him on his way in peace so that he may return to me. I am expecting him along with the brothers.</strong></p>
+    <p><strong>12 Now about our brother Apollos: I strongly urged him to go to you with the brothers. He was quite unwilling to go now, but he will go when he has the opportunity.</strong></p>
+    <p><strong>13 Be on your guard; stand firm in the faith; be courageous; be strong.</strong></p>
+    <p><strong>14 Do everything in love.</strong></p>
+    <p><strong>15 You know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the Lord’s people. I urge you, brothers and sisters,</strong></p>
+    <p><strong>16 to submit to such people and to everyone who joins in the work and labors at it.</strong></p>
+    <p><strong>17 I was glad when Stephanas, Fortunatus and Achaicus arrived, because they have supplied what was lacking from you.</strong></p>
+    <p><strong>18 For they refreshed my spirit and yours also. Such men deserve recognition.</strong></p>
+    <p><strong>19 The churches in the province of Asia send you greetings. Aquila and Priscilla greet you warmly in the Lord, and so does the church that meets at their house.</strong></p>
+    <p><strong>20 All the brothers and sisters here send you greetings. Greet one another with a holy kiss.</strong></p>
+    <p><strong>21 I, Paul, write this greeting in my own hand.</strong></p>
+    <p><strong>22 If anyone does not love the Lord, let that person be cursed! Come, Lord!</strong></p>
+    <p><strong>23 The grace of the Lord Jesus be with you.</strong></p>
+    <p><strong>24 My love to all of you in Christ Jesus. Amen.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "What does Paul instruct the Corinthians about regarding the collection for the Lord’s people?",
+        options: [
+          "a. To gather the collection on the first day of every month",
+          "b. To set aside a sum of money on the first day of every week",
+          "c. To make a collection when he arrives",
+          "d. To send letters of introduction to Jerusalem",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul urge the Corinthians to do in verse 13?",
+        options: [
+          "a. Remain in Ephesus until Pentecost",
+          "b. Travel with Timothy to Macedonia",
+          "c. Stand firm in the faith",
+          "d. Welcome Apollos and the brothers",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "Who does Paul commend for their service to the Lord’s people?",
+        options: [
+          "a. Stephanas, Fortunatus, and Achaicus",
+          "b. Aquila and Priscilla",
+          "c. The churches in Asia",
+          "d. All the brothers and sisters",
+        ],
+        answer: "a",
+      },
+      {
+        question: "How does Paul conclude his letter to the Corinthians?",
+        options: [
+          "a. With a holy kiss",
+          "b. With a curse for those who do not love the Lord",
+          "c. With a greeting in his own hand",
+          "d. With a wish for the grace of the Lord Jesus",
+        ],
+        answer: "d",
+      },
+    ],
+  },
 ];
 
 export default first_corinthians;
