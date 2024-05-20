@@ -3519,4 +3519,1361 @@ const first_corinthians = [
   },
 ];
 
-export default first_corinthians;
+const second_corinthians = [
+  // Chapter 1
+  {
+    quizId: "2corinthians-1",
+    id: "1",
+    verses: `
+    <h2>2 Corinthians 1:1-24</h2>
+    <p><strong>1 Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,</strong></p>
+    <p><strong>To the church of God in Corinth, together with all his holy people throughout Achaia:</strong></p>
+    <p><strong>2 Grace and peace to you from God our Father and the Lord Jesus Christ.</strong></p>
+    <p><strong>3 Praise be to the God and Father of our Lord Jesus Christ, the Father of compassion and the God of all comfort,</strong></p>
+    <p><strong>4 who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves receive from God.</strong></p>
+    <p><strong>5 For just as we share abundantly in the sufferings of Christ, so also our comfort abounds through Christ.</strong></p>
+    <p><strong>6 If we are distressed, it is for your comfort and salvation; if we are comforted, it is for your comfort, which produces in you patient endurance of the same sufferings we suffer.</strong></p>
+    <p><strong>7 And our hope for you is firm, because we know that just as you share in our sufferings, so also you share in our comfort.</strong></p>
+    <p><strong>8 We do not want you to be uninformed, brothers and sisters, about the troubles we experienced in the province of Asia. We were under great pressure, far beyond our ability to endure, so that we despaired of life itself.</strong></p>
+    <p><strong>9 Indeed, we felt we had received the sentence of death. But this happened that we might not rely on ourselves but on God, who raises the dead.</strong></p>
+    <p><strong>10 He has delivered us from such a deadly peril, and he will deliver us again. On him we have set our hope that he will continue to deliver us,</strong></p>
+    <p><strong>11 as you help us by your prayers. Then many will give thanks on our behalf for the gracious favor granted us in answer to the prayers of many.</strong></p>
+    <p><strong>12 Now this is our boast: Our conscience testifies that we have conducted ourselves in the world, and especially in our relations with you, with integrity and godly sincerity. We have done so, relying not on worldly wisdom but on God’s grace.</strong></p>
+    <p><strong>13 For we do not write you anything you cannot read or understand. And I hope that,</strong></p>
+    <p><strong>14 as you have understood us in part, you will come to understand fully that you can boast of us just as we will boast of you in the day of the Lord Jesus.</strong></p>
+    <p><strong>15 Because I was confident of this, I wanted to visit you first so that you might benefit twice.</strong></p>
+    <p><strong>16 I wanted to visit you on my way to Macedonia and to come back to you from Macedonia, and then to have you send me on my way to Judea.</strong></p>
+    <p><strong>17 Was I fickle when I intended to do this? Or do I make my plans in a worldly manner so that in the same breath I say both “Yes, yes” and “No, no”?</strong></p>
+    <p><strong>18 But as surely as God is faithful, our message to you is not “Yes” and “No.”</strong></p>
+    <p><strong>19 For the Son of God, Jesus Christ, who was preached among you by us—by me and Silas and Timothy—was not “Yes” and “No,” but in him it has always been “Yes.”</strong></p>
+    <p><strong>20 For no matter how many promises God has made, they are “Yes” in Christ. And so through him the “Amen” is spoken by us to the glory of God.</strong></p>
+    <p><strong>21 Now it is God who makes both us and you stand firm in Christ. He anointed us,</strong></p>
+    <p><strong>22 set his seal of ownership on us, and put his Spirit in our hearts as a deposit, guaranteeing what is to come.</strong></p>
+    <p><strong>23 I call God as my witness—and I stake my life on it—that it was in order to spare you that I did not return to Corinth.</strong></p>
+    <p><strong>24 Not that we lord it over your faith, but we work with you for your joy, because it is by faith you stand firm.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "Who does Paul mention as an apostle in the beginning of the letter?",
+        options: [
+          "a. Paul and Timothy",
+          "b. Paul and Silas",
+          "c. Paul and Peter",
+          "d. Paul and Barnabas",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What does Paul say about the comfort received from God?",
+        options: [
+          "a. It is only for the apostles",
+          "b. It is meant to be kept to oneself",
+          "c. It should be shared with others in trouble",
+          "d. It is temporary and fleeting",
+        ],
+        answer: "c",
+      },
+      {
+        question: "According to Paul, why did he not return to Corinth?",
+        options: [
+          "a. He lost interest in the Corinthian church",
+          "b. He had other plans in Macedonia",
+          "c. He didn't want to burden them",
+          "d. He was afraid of persecution",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul emphasize about God's promises?",
+        options: [
+          "a. They are conditional",
+          "b. They are not reliable",
+          "c. They are fulfilled in Christ",
+          "d. They are subject to change",
+        ],
+        answer: "c",
+      },
+    ],
+  }, // Chapter 2
+  {
+    quizId: "2corinthians-2",
+    id: "2",
+    verses: `
+    <h2>2 Corinthians 2:1-17</h2>
+    <p><strong>1 So I made up my mind that I would not make another painful visit to you.</strong></p>
+    <p><strong>2 For if I grieve you, who is left to make me glad but you whom I have grieved?</strong></p>
+    <p><strong>3 I wrote as I did, so that when I came I would not be distressed by those who should have made me rejoice. I had confidence in all of you, that you would all share my joy.</strong></p>
+    <p><strong>4 For I wrote you out of great distress and anguish of heart and with many tears, not to grieve you but to let you know the depth of my love for you.</strong></p>
+    <p><strong>5 If anyone has caused grief, he has not so much grieved me as he has grieved all of you to some extent—not to put it too severely.</strong></p>
+    <p><strong>6 The punishment inflicted on him by the majority is sufficient.</strong></p>
+    <p><strong>7 Now instead, you ought to forgive and comfort him, so that he will not be overwhelmed by excessive sorrow.</strong></p>
+    <p><strong>8 I urge you, therefore, to reaffirm your love for him.</strong></p>
+    <p><strong>9 Another reason I wrote you was to see if you would stand the test and be obedient in everything.</strong></p>
+    <p><strong>10 Anyone you forgive, I also forgive. And what I have forgiven—if there was anything to forgive—I have forgiven in the sight of Christ for your sake,</strong></p>
+    <p><strong>11 in order that Satan might not outwit us. For we are not unaware of his schemes.</strong></p>
+    <p><strong>12 Now when I went to Troas to preach the gospel of Christ and found that the Lord had opened a door for me,</strong></p>
+    <p><strong>13 I still had no peace of mind, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia.</strong></p>
+    <p><strong>14 But thanks be to God, who always leads us as captives in Christ’s triumphal procession and uses us to spread the aroma of the knowledge of him everywhere.</strong></p>
+    <p><strong>15 For we are to God the pleasing aroma of Christ among those who are being saved and those who are perishing.</strong></p>
+    <p><strong>16 To the one we are an aroma that brings death; to the other, an aroma that brings life. And who is equal to such a task?</strong></p>
+    <p><strong>17 Unlike so many, we do not peddle the word of God for profit. On the contrary, in Christ we speak before God with sincerity, as those sent from God.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "Why did Paul write to the Corinthians instead of visiting them?",
+        options: [
+          "a. He was too busy with other missions",
+          "b. He wanted to avoid causing them pain",
+          "c. He was afraid of persecution",
+          "d. He had lost interest in them",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What did Paul urge the Corinthians to do regarding the one who caused grief?",
+        options: [
+          "a. Excommunicate him",
+          "b. Seek revenge",
+          "c. Forgive and comfort him",
+          "d. Ignore him",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "According to Paul, what role does the Corinthian church play in spreading the knowledge of Christ?",
+        options: [
+          "a. They are irrelevant",
+          "b. They are a hindrance",
+          "c. They are the pleasing aroma of Christ",
+          "d. They are obstacles",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "How does Paul describe his sincerity in delivering God's word?",
+        options: [
+          "a. As a lucrative business",
+          "b. As a means to gain popularity",
+          "c. As those sent from God",
+          "d. As a tool for manipulation",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-3",
+    id: "3",
+    verses: `
+    <h2>2 Corinthians 3:1-18</h2>
+    <p><strong>1 Are we beginning to commend ourselves again? Or do we need, like some people, letters of recommendation to you or from you?</strong></p>
+    <p><strong>2 You yourselves are our letter, written on our hearts, known and read by everyone.</strong></p>
+    <p><strong>3 You show that you are a letter from Christ, the result of our ministry, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts.</strong></p>
+    <p><strong>4 Such confidence we have through Christ before God.</strong></p>
+    <p><strong>5 Not that we are competent in ourselves to claim anything for ourselves, but our competence comes from God.</strong></p>
+    <p><strong>6 He has made us competent as ministers of a new covenant—not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.</strong></p>
+    <p><strong>7 Now if the ministry that brought death, which was engraved in letters on stone, came with glory, so that the Israelites could not look steadily at the face of Moses because of its glory, transitory though it was,</strong></p>
+    <p><strong>8 will not the ministry of the Spirit be even more glorious?</strong></p>
+    <p><strong>9 If the ministry that brought condemnation was glorious, how much more glorious is the ministry that brings righteousness!</strong></p>
+    <p><strong>10 For what was glorious has no glory now in comparison with the surpassing glory.</strong></p>
+    <p><strong>11 And if what was transitory came with glory, how much greater is the glory of that which lasts!</strong></p>
+    <p><strong>12 Therefore, since we have such a hope, we are very bold.</strong></p>
+    <p><strong>13 We are not like Moses, who would put a veil over his face to prevent the Israelites from seeing the end of what was passing away.</strong></p>
+    <p><strong>14 But their minds were made dull, for to this day the same veil remains when the old covenant is read. It has not been removed, because only in Christ is it taken away.</strong></p>
+    <p><strong>15 Even to this day when Moses is read, a veil covers their hearts.</strong></p>
+    <p><strong>16 But whenever anyone turns to the Lord, the veil is taken away.</strong></p>
+    <p><strong>17 Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.</strong></p>
+    <p><strong>18 And we all, who with unveiled faces contemplate the Lord’s glory, are being transformed into his image with ever-increasing glory, which comes from the Lord, who is the Spirit.</strong></p>
+  `,
+    question: [
+      {
+        question: "What does Paul say is written on the Corinthians' hearts?",
+        options: [
+          "a. Letters of recommendation",
+          "b. Tablets of stone",
+          "c. Their own desires",
+          "d. A letter from Christ",
+        ],
+        answer: "d",
+      },
+      {
+        question: "According to Paul, what brings life?",
+        options: [
+          "a. The letter",
+          "b. The Spirit",
+          "c. The law",
+          "d. Human efforts",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "How does Paul describe the ministry of the Spirit compared to the ministry that brought death?",
+        options: [
+          "a. Equally glorious",
+          "b. Less glorious",
+          "c. More glorious",
+          "d. Irrelevant",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What happens when anyone turns to the Lord according to Paul?",
+        options: [
+          "a. They become blinded",
+          "b. The veil is removed",
+          "c. They become dull-minded",
+          "d. They lose freedom",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  // Chapter 4
+  {
+    quizId: "2corinthians-4",
+    id: "4",
+    verses: `
+    <h2>2 Corinthians 4:1-18</h2>
+    <p><strong>1 Therefore, since through God’s mercy we have this ministry, we do not lose heart.</strong></p>
+    <p><strong>2 Rather, we have renounced secret and shameful ways; we do not use deception, nor do we distort the word of God. On the contrary, by setting forth the truth plainly we commend ourselves to everyone’s conscience in the sight of God.</strong></p>
+    <p><strong>3 And even if our gospel is veiled, it is veiled to those who are perishing.</strong></p>
+    <p><strong>4 The god of this age has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God.</strong></p>
+    <p><strong>5 For what we preach is not ourselves, but Jesus Christ as Lord, and ourselves as your servants for Jesus’ sake.</strong></p>
+    <p><strong>6 For God, who said, “Let light shine out of darkness,” made his light shine in our hearts to give us the light of the knowledge of God’s glory displayed in the face of Christ.</strong></p>
+    <p><strong>7 But we have this treasure in jars of clay to show that this all-surpassing power is from God and not from us.</strong></p>
+    <p><strong>8 We are hard pressed on every side, but not crushed; perplexed, but not in despair;</strong></p>
+    <p><strong>9 persecuted, but not abandoned; struck down, but not destroyed.</strong></p>
+    <p><strong>10 We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body.</strong></p>
+    <p><strong>11 For we who are alive are always being given over to death for Jesus’ sake, so that his life may also be revealed in our mortal body.</strong></p>
+    <p><strong>12 So then, death is at work in us, but life is at work in you.</strong></p>
+    <p><strong>13 It is written: “I believed; therefore, I have spoken.” Since we have that same spirit of faith, we also believe and therefore speak,</strong></p>
+    <p><strong>14 because we know that the one who raised the Lord Jesus from the dead will also raise us with Jesus and present us with you to himself.</strong></p>
+    <p><strong>15 All this is for your benefit, so that the grace that is reaching more and more people may cause thanksgiving to overflow to the glory of God.</strong></p>
+    <p><strong>16 Therefore we do not lose heart. Though outwardly we are wasting away, yet inwardly we are being renewed day by day.</strong></p>
+    <p><strong>17 For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all.</strong></p>
+    <p><strong>18 So we fix our eyes not on what is seen, but on what is unseen, since what is seen is temporary, but what is unseen is eternal.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "What does Paul commend himself to everyone's conscience by doing?",
+        options: [
+          "a. Using secret and shameful ways",
+          "b. Distorting the word of God",
+          "c. Setting forth the truth plainly",
+          "d. Hiding the gospel",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul compare believers to?",
+        options: [
+          "a. Unbreakable stones",
+          "b. Jars of clay",
+          "c. Towers of strength",
+          "d. Pillars of the church",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "According to Paul, what is the benefit of believers being afflicted?",
+        options: [
+          "a. It proves their weakness",
+          "b. It reveals the power of God",
+          "c. It brings despair",
+          "d. It leads to destruction",
+        ],
+        answer: "b",
+      },
+      {
+        question: "Where does Paul encourage believers to fix their eyes?",
+        options: [
+          "a. On temporary things",
+          "b. On what is seen",
+          "c. On what is unseen",
+          "d. On earthly desires",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-5",
+    id: "5",
+    verses: `
+    <h2>2 Corinthians 5:1-21</h2>
+    <p><strong>1 For we know that if the earthly tent we live in is destroyed, we have a building from God, an eternal house in heaven, not built by human hands.</strong></p>
+    <p><strong>2 Meanwhile we groan, longing to be clothed instead with our heavenly dwelling,</strong></p>
+    <p><strong>3 because when we are clothed, we will not be found naked.</strong></p>
+    <p><strong>4 For while we are in this tent, we groan and are burdened, because we do not wish to be unclothed but to be clothed instead with our heavenly dwelling, so that what is mortal may be swallowed up by life.</strong></p>
+    <p><strong>5 Now the one who has fashioned us for this very purpose is God, who has given us the Spirit as a deposit, guaranteeing what is to come.</strong></p>
+    <p><strong>6 Therefore we are always confident and know that as long as we are at home in the body we are away from the Lord.</strong></p>
+    <p><strong>7 For we live by faith, not by sight.</strong></p>
+    <p><strong>8 We are confident, I say, and would prefer to be away from the body and at home with the Lord.</strong></p>
+    <p><strong>9 So we make it our goal to please him, whether we are at home in the body or away from it.</strong></p>
+    <p><strong>10 For we must all appear before the judgment seat of Christ, so that each of us may receive what is due us for the things done while in the body, whether good or bad.</strong></p>
+    <p><strong>11 Since, then, we know what it is to fear the Lord, we try to persuade others. What we are is plain to God, and I hope it is also plain to your conscience.</strong></p>
+    <p><strong>12 We are not trying to commend ourselves to you again, but are giving you an opportunity to take pride in us, so that you can answer those who take pride in what is seen rather than in what is in the heart.</strong></p>
+    <p><strong>13 If we are “out of our mind,” as some say, it is for God; if we are in our right mind, it is for you.</strong></p>
+    <p><strong>14 For Christ’s love compels us, because we are convinced that one died for all, and therefore all died.</strong></p>
+    <p><strong>15 And he died for all, that those who live should no longer live for themselves but for him who died for them and was raised again.</strong></p>
+    <p><strong>16 So from now on we regard no one from a worldly point of view. Though we once regarded Christ in this way, we do so no longer.</strong></p>
+    <p><strong>17 Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!</strong></p>
+    <p><strong>18 All this is from God, who reconciled us to himself through Christ and gave us the ministry of reconciliation:</strong></p>
+    <p><strong>19 that God was reconciling the world to himself in Christ, not counting people’s sins against them. And he has committed to us the message of reconciliation.</strong></p>
+    <p><strong>20 We are therefore Christ’s ambassadors, as though God were making his appeal through us. We implore you on Christ’s behalf: Be reconciled to God.</strong></p>
+    <p><strong>21 God made him who had no sin to be sin for us, so that in him we might become the righteousness of God.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "According to Paul, what do believers have as a guarantee of what is to come?",
+        options: [
+          "a. Money",
+          "b. Human efforts",
+          "c. The Spirit",
+          "d. Political power",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What is Paul's goal for believers?",
+        options: [
+          "a. To please themselves",
+          "b. To fear the Lord",
+          "c. To persuade others",
+          "d. To seek worldly gain",
+        ],
+        answer: "c",
+      },
+      {
+        question: "How does Paul describe believers' relationship with Christ?",
+        options: [
+          "a. Temporary",
+          "b. Subject to change",
+          "c. Old and worn out",
+          "d. New creation",
+        ],
+        answer: "d",
+      },
+      {
+        question:
+          "What message has God entrusted to believers, according to Paul?",
+        options: [
+          "a. The message of condemnation",
+          "b. The message of reconciliation",
+          "c. The message of judgment",
+          "d. The message of division",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  // Chapter 6
+  {
+    quizId: "2corinthians-6",
+    id: "6",
+    verses: `
+    <h2>2 Corinthians 6:1-18</h2>
+    <p><strong>1 As God’s co-workers we urge you not to receive God’s grace in vain.</strong></p>
+    <p><strong>2 For he says, “In the time of my favor I heard you, and in the day of salvation I helped you.” I tell you, now is the time of God’s favor, now is the day of salvation.</strong></p>
+    <p><strong>3 We put no stumbling block in anyone’s path, so that our ministry will not be discredited.</strong></p>
+    <p><strong>4 Rather, as servants of God we commend ourselves in every way: in great endurance; in troubles, hardships and distresses;</strong></p>
+    <p><strong>5 in beatings, imprisonments and riots; in hard work, sleepless nights and hunger;</strong></p>
+    <p><strong>6 in purity, understanding, patience and kindness; in the Holy Spirit and in sincere love;</strong></p>
+    <p><strong>7 in truthful speech and in the power of God; with weapons of righteousness in the right hand and in the left;</strong></p>
+    <p><strong>8 through glory and dishonor, bad report and good report; genuine, yet regarded as impostors;</strong></p>
+    <p><strong>9 known, yet regarded as unknown; dying, and yet we live on; beaten, and yet not killed;</strong></p>
+    <p><strong>10 sorrowful, yet always rejoicing; poor, yet making many rich; having nothing, and yet possessing everything.</strong></p>
+    <p><strong>11 We have spoken freely to you, Corinthians, and opened wide our hearts to you.</strong></p>
+    <p><strong>12 We are not withholding our affection from you, but you are withholding yours from us.</strong></p>
+    <p><strong>13 As a fair exchange—I speak as to my children—open wide your hearts also.</strong></p>
+    <p><strong>14 Do not be yoked together with unbelievers. For what do righteousness and wickedness have in common? Or what fellowship can light have with darkness?</strong></p>
+    <p><strong>15 What harmony is there between Christ and Belial? Or what does a believer have in common with an unbeliever?</strong></p>
+    <p><strong>16 What agreement is there between the temple of God and idols? For we are the temple of the living God. As God has said:</strong></p>
+    <p><strong>“I will live with them and walk among them, and I will be their God, and they will be my people.”</strong></p>
+    <p><strong>17 Therefore, “Come out from them and be separate, says the Lord. Touch no unclean thing, and I will receive you.”</strong></p>
+    <p><strong>18 And, “I will be a Father to you, and you will be my sons and daughters, says the Lord Almighty.”</strong></p>
+  `,
+    question: [
+      {
+        question: "What does Paul urge believers not to do?",
+        options: [
+          "a. Receive God's grace in vain",
+          "b. Be yoked together with unbelievers",
+          "c. Withhold affection from others",
+          "d. Speak freely to others",
+        ],
+        answer: "a",
+      },
+      {
+        question: "According to Paul, what is the time of God's favor?",
+        options: ["a. In the future", "b. In the past", "c. Now", "d. Never"],
+        answer: "c",
+      },
+      {
+        question:
+          "What does Paul instruct believers to do regarding their hearts?",
+        options: [
+          "a. Close their hearts",
+          "b. Withhold affection",
+          "c. Open wide their hearts",
+          "d. Guard their hearts",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul urge believers to do regarding unbelievers?",
+        options: [
+          "a. Fellowship with them",
+          "b. Ignore them",
+          "c. Be yoked together with them",
+          "d. Come out from them",
+        ],
+        answer: "d",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-7",
+    id: "7",
+    verses: `
+    <h2>2 Corinthians 7:1-16</h2>
+    <p><strong>1 Therefore, since we have these promises, dear friends, let us purify ourselves from everything that contaminates body and spirit, perfecting holiness out of reverence for God.</strong></p>
+    <p><strong>2 Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have exploited no one.</strong></p>
+    <p><strong>3 I do not say this to condemn you; I have said before that you have such a place in our hearts that we would live or die with you.</strong></p>
+    <p><strong>4 I have spoken to you with great frankness; I take great pride in you. I am greatly encouraged; in all our troubles my joy knows no bounds.</strong></p>
+    <p><strong>5 For when we came into Macedonia, we had no rest, but we were harassed at every turn—conflicts on the outside, fears within.</strong></p>
+    <p><strong>6 But God, who comforts the downcast, comforted us by the coming of Titus,</strong></p>
+    <p><strong>7 and not only by his coming but also by the comfort you had given him. He told us about your longing for me, your deep sorrow, your ardent concern for me, so that my joy was greater than ever.</strong></p>
+    <p><strong>8 Even if I caused you sorrow by my letter, I do not regret it. Though I did regret it—I see that my letter hurt you, but only for a little while—</strong></p>
+    <p><strong>9 yet now I am happy, not because you were made sorry, but because your sorrow led you to repentance. For you became sorrowful as God intended and so were not harmed in any way by us.</strong></p>
+    <p><strong>10 Godly sorrow brings repentance that leads to salvation and leaves no regret, but worldly sorrow brings death.</strong></p>
+    <p><strong>11 See what this godly sorrow has produced in you: what earnestness, what eagerness to clear yourselves, what indignation, what alarm, what longing, what concern, what readiness to see justice done. At every point you have proved yourselves to be innocent in this matter.</strong></p>
+    <p><strong>12 So even though I wrote to you, it was neither on account of the one who did the wrong nor on account of the injured party, but rather that before God you could see for yourselves how devoted to us you are.</strong></p>
+    <p><strong>13 By all this we are encouraged.</strong></p>
+    <p><strong>14 I had boasted to him about you, and you have not embarrassed me. But just as everything we said to you was true, so our boasting about you to Titus has proved to be true as well.</strong></p>
+    <p><strong>15 And his affection for you is all the greater when he remembers that you were all obedient, receiving him with fear and trembling.</strong></p>
+    <p><strong>16 I am glad I can have complete confidence in you.</strong></p>
+  `,
+    question: [
+      {
+        question:
+          "What does Paul urge believers to do in light of the promises they have?",
+        options: [
+          "a. Expand their territory",
+          "b. Purify themselves",
+          "c. Accumulate wealth",
+          "d. Seek revenge",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What does Paul express about the sorrow caused by his letter?",
+        options: [
+          "a. He regrets causing sorrow",
+          "b. He does not regret causing sorrow",
+          "c. He is indifferent to the sorrow",
+          "d. He is unaware of the sorrow",
+        ],
+        answer: "a",
+      },
+      {
+        question: "According to Paul, what does godly sorrow produce?",
+        options: ["a. Repentance", "b. Regret", "c. Death", "d. Anger"],
+        answer: "a",
+      },
+      {
+        question: "How does Paul describe believers' affection towards him?",
+        options: [
+          "a. Critical",
+          "b. Unchanged",
+          "c. Indifferent",
+          "d. Devoted",
+        ],
+        answer: "d",
+      },
+    ],
+  }, // Chapter 8
+  {
+    quizId: "2corinthians-8",
+    id: "8",
+    verses: `
+    <h2>2 Corinthians 8:1-24</h2>
+    <p><strong>1 And now, brothers and sisters, we want you to know about the grace that God has given the Macedonian churches.</strong></p>
+    <p><strong>2 In the midst of a very severe trial, their overflowing joy and their extreme poverty welled up in rich generosity.</strong></p>
+    <p><strong>3 For I testify that they gave as much as they were able, and even beyond their ability. Entirely on their own,</strong></p>
+    <p><strong>4 they urgently pleaded with us for the privilege of sharing in this service to the Lord’s people.</strong></p>
+    <p><strong>5 And they exceeded our expectations: They gave themselves first of all to the Lord, and then by the will of God also to us.</strong></p>
+    <p><strong>6 So we urged Titus, just as he had earlier made a beginning, to bring also to completion this act of grace on your part.</strong></p>
+    <p><strong>7 But since you excel in everything—in faith, in speech, in knowledge, in complete earnestness and in the love we have kindled in you—see that you also excel in this grace of giving.</strong></p>
+    <p><strong>8 I am not commanding you, but I want to test the sincerity of your love by comparing it with the earnestness of others.</strong></p>
+    <p><strong>9 For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you through his poverty might become rich.</strong></p>
+    <p><strong>10 And here is my judgment about what is best for you in this matter. Last year you were the first not only to give but also to have the desire to do so.</strong></p>
+    <p><strong>11 Now finish the work, so that your eager willingness to do it may be matched by your completion of it, according to your means.</strong></p>
+    <p><strong>12 For if the willingness is there, the gift is acceptable according to what one has, not according to what one does not have.</strong></p>
+    <p><strong>13 Our desire is not that others might be relieved while you are hard pressed, but that there might be equality.</strong></p>
+    <p><strong>14 At the present time your plenty will supply what they need, so that in turn their plenty will supply what you need. The goal is equality,</strong></p>
+    <p><strong>15 as it is written: “The one who gathered much did not have too much, and the one who gathered little did not have too little.”</strong></p>
+    <p><strong>16 Thanks be to God, who put into the heart of Titus the same concern I have for you.</strong></p>
+    <p><strong>17 For Titus not only welcomed our appeal, but he is coming to you with much enthusiasm and on his own initiative.</strong></p>
+    <p><strong>18 And we are sending along with him the brother who is praised by all the churches for his service to the gospel.</strong></p>
+    <p><strong>19 What is more, he was chosen by the churches to accompany us as we carry the offering, which we administer in order to honor the Lord himself and to show our eagerness to help.</strong></p>
+    <p><strong>20 We want to avoid any criticism of the way we administer this liberal gift.</strong></p>
+    <p><strong>21 For we are taking pains to do what is right, not only in the eyes of the Lord but also in the eyes of man.</strong></p>
+    <p><strong>22 In addition, we are sending with them our brother who has often proved to us in many ways that he is zealous, and now even more so because of his great confidence in you.</strong></p>
+    <p><strong>23 As for Titus, he is my partner and co-worker among you; as for our brothers, they are representatives of the churches and an honor to Christ.</strong></p>
+    <p><strong>24 Therefore show these men the proof of your love and the reason for our pride in you, so that the churches can see it.</strong></p>
+  `,
+    question: [
+      {
+        question: "What does Paul want the Corinthians to excel in?",
+        options: ["a. Speech", "b. Wealth", "c. Faith", "d. Grace of giving"],
+        answer: "d",
+      },
+      {
+        question:
+          "What did the Macedonian churches exhibit despite their poverty?",
+        options: [
+          "a. Stinginess",
+          "b. Rich generosity",
+          "c. Selfishness",
+          "d. Indifference",
+        ],
+        answer: "b",
+      },
+      {
+        question: "According to Paul, what was the goal regarding giving?",
+        options: [
+          "a. Inequality",
+          "b. Selfishness",
+          "c. Equality",
+          "d. Exclusivity",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What does Paul say about the gift in relation to willingness?",
+        options: [
+          "a. The gift is based on what one doesn't have",
+          "b. The gift is acceptable regardless of willingness",
+          "c. The gift is based on what one has and willingness",
+          "d. The gift is based on equality",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-9",
+    id: "9",
+    verses: `
+    <h2>2 Corinthians 9:1-15</h2>
+    <p><strong>1 There is no need for me to write to you about this service to the Lord’s people.</strong></p>
+    <p><strong>2 For I know your eagerness to help, and I have been boasting about it to the Macedonians, telling them that since last year you in Achaia were ready to give; and your enthusiasm has stirred most of them to action.</strong></p>
+    <p><strong>3 But I am sending the brothers in order that our boasting about you in this matter should not prove hollow, but that you may be ready, as I said you would be.</strong></p>
+    <p><strong>4 For if any Macedonians come with me and find you unprepared, we—not to say anything about you—would be ashamed of having been so confident.</strong></p>
+    <p><strong>5 So I thought it necessary to urge the brothers to visit you in advance and finish the arrangements for the generous gift you had promised. Then it will be ready as a generous gift, not as one grudgingly given.</strong></p>
+    <p><strong>6 Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously.</strong></p>
+    <p><strong>7 Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.</strong></p>
+    <p><strong>8 And God is able to bless you abundantly, so that in all things at all times, having all that you need, you will abound in every good work.</strong></p>
+    <p><strong>9 As it is written: “They have freely scattered their gifts to the poor; their righteousness endures forever.”</strong></p>
+    <p><strong>10 Now he who supplies seed to the sower and bread for food will also supply and increase your store of seed and will enlarge the harvest of your righteousness.</strong></p>
+    <p><strong>11 You will be enriched in every way so that you can be generous on every occasion, and through us your generosity will result in thanksgiving to God.</strong></p>
+    <p><strong>12 This service that you perform is not only supplying the needs of the Lord’s people but is also overflowing in many expressions of thanks to God.</strong></p>
+    <p><strong>13 Because of the service by which you have proved yourselves, others will praise God for the obedience that accompanies your confession of the gospel of Christ, and for your generosity in sharing with them and with everyone else.</strong></p>
+    <p><strong>14 And in their prayers for you their hearts will go out to you, because of the surpassing grace God has given you.</strong></p>
+    <p><strong>15 Thanks be to God for his indescribable gift!</strong></p>
+  `,
+    question: [
+      {
+        question: "According to Paul, what is the motivation for giving?",
+        options: [
+          "a. Reluctance",
+          "b. Compulsion",
+          "c. Cheerfulness",
+          "d. Shame",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul say about God's ability to bless?",
+        options: ["a. Limited", "b. Conditional", "c. Abundant", "d. Rare"],
+        answer: "c",
+      },
+      {
+        question: "What will happen to the harvest of righteousness?",
+        options: [
+          "a. It will decrease",
+          "b. It will be stagnant",
+          "c. It will be enlarged",
+          "d. It will be suppressed",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What does Paul say about the service performed by the Corinthians?",
+        options: [
+          "a. It is unnecessary",
+          "b. It supplies the needs of the Lord's people",
+          "c. It leads to condemnation",
+          "d. It causes shame",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  // Chapter 10
+  {
+    quizId: "2corinthians-10",
+    id: "10",
+    verses: `
+    <h2>2 Corinthians 10:1-18</h2>
+    <p><strong>1 By the humility and gentleness of Christ, I appeal to you—I, Paul, who am “timid” when face to face with you, but “bold” toward you when away!</strong></p>
+    <p><strong>2 I beg you that when I come I may not have to be as bold as I expect to be toward some people who think that we live by the standards of this world.</strong></p>
+    <p><strong>3 For though we live in the world, we do not wage war as the world does.</strong></p>
+    <p><strong>4 The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds.</strong></p>
+    <p><strong>5 We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.</strong></p>
+    <p><strong>6 And we will be ready to punish every act of disobedience, once your obedience is complete.</strong></p>
+    <p><strong>7 You are judging by appearances. If anyone is confident that they belong to Christ, they should consider again that we belong to Christ just as much as they do.</strong></p>
+    <p><strong>8 So even if I boast somewhat freely about the authority the Lord gave us for building you up rather than tearing you down, I will not be ashamed of it.</strong></p>
+    <p><strong>9 I do not want to seem to be trying to frighten you with my letters.</strong></p>
+    <p><strong>10 For some say, “His letters are weighty and forceful, but in person he is unimpressive and his speaking amounts to nothing.”</strong></p>
+    <p><strong>11 Such people should realize that what we are in our letters when we are absent, we will be in our actions when we are present.</strong></p>
+    <p><strong>12 We do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves by themselves and compare themselves with themselves, they are not wise.</strong></p>
+    <p><strong>13 We, however, will not boast beyond proper limits, but will confine our boasting to the sphere of service God himself has assigned to us, a sphere that also includes you.</strong></p>
+    <p><strong>14 We are not going too far in our boasting, as would be the case if we had not come to you, for we did get as far as you with the gospel of Christ.</strong></p>
+    <p><strong>15 Neither do we go beyond our limits by boasting of work done by others. Our hope is that, as your faith continues to grow, our sphere of activity among you will greatly expand,</strong></p>
+    <p><strong>16 so that we can preach the gospel in the regions beyond you. For we do not want to boast about work already done in someone else’s territory.</strong></p>
+    <p><strong>17 But, “Let the one who boasts boast in the Lord.”</strong></p>
+    <p><strong>18 For it is not the one who commends himself who is approved, but the one whom the Lord commends.</strong></p>
+  `,
+    question: [
+      {
+        question: "What does Paul say about the weapons they fight with?",
+        options: [
+          "a. They are of the world",
+          "b. They are temporary",
+          "c. They have divine power",
+          "d. They are physical",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "According to Paul, how should one consider their belonging to Christ?",
+        options: [
+          "a. With arrogance",
+          "b. By appearances",
+          "c. With humility",
+          "d. By worldly standards",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul say about boasting?",
+        options: [
+          "a. It is wise",
+          "b. It should be done freely",
+          "c. It should be confined to one's own achievements",
+          "d. It is unnecessary",
+        ],
+        answer: "c",
+      },
+      {
+        question: "Who does Paul say is approved?",
+        options: [
+          "a. The one who boasts in themselves",
+          "b. The one who commends themselves",
+          "c. The one whom the Lord commends",
+          "d. The one who compares themselves with others",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-11",
+    id: "11",
+    verses: `
+    <h2>2 Corinthians 11:1-33</h2>
+    <p><strong>1 I hope you will put up with me in a little foolishness. Yes, please put up with me!</strong></p>
+    <p><strong>2 I am jealous for you with a godly jealousy. I promised you to one husband, to Christ, so that I might present you as a pure virgin to him.</strong></p>
+    <p><strong>3 But I am afraid that just as Eve was deceived by the serpent’s cunning, your minds may somehow be led astray from your sincere and pure devotion to Christ.</strong></p>
+    <p><strong>4 For if someone comes to you and preaches a Jesus other than the Jesus we preached, or if you receive a different spirit from the Spirit you received, or a different gospel from the one you accepted, you put up with it easily enough.</strong></p>
+    <p><strong>5 I do not think I am in the least inferior to those “super-apostles.”</strong></p>
+    <p><strong>6 I may indeed be untrained as a speaker, but I do have knowledge. We have made this perfectly clear to you in every way.</strong></p>
+    <p><strong>7 Was it a sin for me to lower myself in order to elevate you by preaching the gospel of God to you free of charge?</strong></p>
+    <p><strong>8 I robbed other churches by receiving support from them so as to serve you.</strong></p>
+    <p><strong>9 And when I was with you and needed something, I was not a burden to anyone, for the brothers who came from Macedonia supplied what I needed. I have kept myself from being a burden to you in any way, and will continue to do so.</strong></p>
+    <p><strong>10 As surely as the truth of Christ is in me, nobody in the regions of Achaia will stop this boasting of mine.</strong></p>
+    <p><strong>11 Why? Because I do not love you? God knows I do!</strong></p>
+    <p><strong>12 And I will keep on doing what I am doing in order to cut the ground from under those who want an opportunity to be considered equal with us in the things they boast about.</strong></p>
+    <p><strong>13 For such people are false apostles, deceitful workers, masquerading as apostles of Christ.</strong></p>
+    <p><strong>14 And no wonder, for Satan himself masquerades as an angel of light.</strong></p>
+    <p><strong>15 It is not surprising, then, if his servants also masquerade as servants of righteousness. Their end will be what their actions deserve.</strong></p>
+    <p><strong>16 I repeat: Let no one take me for a fool. But if you do, then tolerate me just as you would a fool, so that I may do a little boasting.</strong></p>
+    <p><strong>17 In this self-confident boasting I am not talking as the Lord would, but as a fool.</strong></p>
+    <p><strong>18 Since many are boasting in the way the world does, I too will boast.</strong></p>
+    <p><strong>19 You gladly put up with fools since you are so wise!</strong></p>
+    <p><strong>20 In fact, you even put up with anyone who enslaves you or exploits you or takes advantage of you or puts on airs or slaps you in the face.</strong></p>
+    <p><strong>21 To my shame I admit that we were too weak for that! Whatever anyone else dares to boast about—I am speaking as a fool—I also dare to boast about.</strong></p>
+    <p><strong>22 Are they Hebrews? So am I. Are they Israelites? So am I. Are they Abraham’s descendants? So am I.</strong></p>
+    <p><strong>23 Are they servants of Christ? (I am out of my mind to talk like this.) I am more. I have worked much harder, been in prison more frequently, been flogged more severely, and been exposed to death again and again.</strong></p>
+    <p><strong>24 Five times I received from the Jews the forty lashes minus one.</strong></p>
+    <p><strong>25 Three times I was beaten with rods, once I was pelted with stones, three times I was shipwrecked, I spent a night and a day in the open sea,</strong></p>
+    <p><strong>26 I have been constantly on the move. I have been in danger from rivers, in danger from bandits, in danger from my fellow Jews, in danger from Gentiles; in danger in the city, in danger in the country, in danger at sea; and in danger from false believers.</strong></p>
+    <p><strong>27 I have labored and toiled and have often gone without sleep; I have known hunger and thirst and have often gone without food; I have been cold and naked.</strong></p>
+    <p><strong>28 Besides everything else, I face daily the pressure of my concern for all the churches.</strong></p>
+    <p><strong>29 Who is weak, and I do not feel weak? Who is led into sin, and I do not inwardly burn?</strong></p>
+    <p><strong>30 If I must boast, I will boast of the things that show my weakness.</strong></p>
+    <p><strong>31 The God and Father of the Lord Jesus, who is to be praised forever, knows that I am not lying.</strong></p>
+    <p><strong>32 In Damascus the governor under King Aretas had the city of the Damascenes guarded in order to arrest me.</strong></p>
+    <p><strong>33 But I was lowered in a basket from a window in the wall and slipped through his hands.</strong></p>
+  `,
+    question: [
+      {
+        question: "Why does Paul express jealousy for the Corinthians?",
+        options: [
+          "a. Because they belong to another husband",
+          "b. Because they are not wise",
+          "c. Because they are weak",
+          "d. Because they boast too much",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What does Paul fear concerning the Corinthians?",
+        options: [
+          "a. They will not recognize his authority",
+          "b. They will be led astray from sincere devotion to Christ",
+          "c. They will boast too much",
+          "d. They will reject the true gospel",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul say about the false apostles?",
+        options: [
+          "a. They are servants of Christ",
+          "b. They are masquerading as apostles of Christ",
+          "c. They are truthful",
+          "d. They are wise",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul boast about?",
+        options: [
+          "a. His strength and achievements",
+          "b. His weaknesses and sufferings",
+          "c. His authority over the Corinthians",
+          "d. His knowledge and wisdom",
+        ],
+        answer: "b",
+      },
+    ],
+  }, // Chapter 12
+  {
+    quizId: "2corinthians-12",
+    id: "12",
+    verses: `
+    <h2>2 Corinthians 12:1-21</h2>
+    <p><strong>1 I must go on boasting. Although there is nothing to be gained, I will go on to visions and revelations from the Lord.</strong></p>
+    <p><strong>2 I know a man in Christ who fourteen years ago was caught up to the third heaven. Whether it was in the body or out of the body I do not know—God knows.</strong></p>
+    <p><strong>3 And I know that this man—whether in the body or apart from the body I do not know, but God knows—</strong></p>
+    <p><strong>4 was caught up to paradise and heard inexpressible things, things that no one is permitted to tell.</strong></p>
+    <p><strong>5 I will boast about a man like that, but I will not boast about myself, except about my weaknesses.</strong></p>
+    <p><strong>6 Even if I should choose to boast, I would not be a fool, because I would be speaking the truth. But I refrain, so no one will think more of me than is warranted by what I do or say,</strong></p>
+    <p><strong>7 or because of these surpassingly great revelations. Therefore, in order to keep me from becoming conceited, I was given a thorn in my flesh, a messenger of Satan, to torment me.</strong></p>
+    <p><strong>8 Three times I pleaded with the Lord to take it away from me.</strong></p>
+    <p><strong>9 But he said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Therefore I will boast all the more gladly about my weaknesses, so that Christ’s power may rest on me.</strong></p>
+    <p><strong>10 That is why, for Christ’s sake, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong.</strong></p>
+    <p><strong>11 I have made a fool of myself, but you drove me to it. I ought to have been commended by you, for I am not in the least inferior to the “super-apostles,” even though I am nothing.</strong></p>
+    <p><strong>12 I persevered in demonstrating among you the marks of a true apostle, including signs, wonders and miracles.</strong></p>
+    <p><strong>13 How were you inferior to the other churches, except that I was never a burden to you? Forgive me this wrong!</strong></p>
+    <p><strong>14 Now I am ready to visit you for the third time, and I will not be a burden to you, because what I want is not your possessions but you. After all, children should not have to save up for their parents, but parents for their children.</strong></p>
+    <p><strong>15 So I will very gladly spend for you everything I have and expend myself as well. If I love you more, will you love me less?</strong></p>
+    <p><strong>16 Be that as it may, I have not been a burden to you. Yet, crafty fellow that I am, I caught you by trickery!</strong></p>
+    <p><strong>17 Did I exploit you through any of the men I sent to you?</strong></p>
+    <p><strong>18 I urged Titus to go to you and I sent our brother with him. Titus did not exploit you, did he? Did we not walk in the same footsteps by the same Spirit?</strong></p>
+    <p><strong>19 Have you been thinking all along that we have been defending ourselves to you? We have been speaking in the sight of God as those in Christ; and everything we do, dear friends, is for your strengthening.</strong></p>
+    <p><strong>20 For I am afraid that when I come I may not find you as I want you to be, and you may not find me as you want me to be. I fear that there may be discord, jealousy, fits of rage, selfish ambition, slander, gossip, arrogance and disorder.</strong></p>
+    <p><strong>21 I am afraid that when I come again my God will humble me before you, and I will be grieved over many who have sinned earlier and have not repented of the impurity, sexual sin and debauchery in which they have indulged.</strong></p>
+  `,
+    question: [
+      {
+        question: "What did Paul experience fourteen years ago?",
+        options: [
+          "a. A vision of the third heaven",
+          "b. A miraculous healing",
+          "c. A divine revelation",
+          "d. A visitation from an angel",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What was the purpose of the thorn in Paul's flesh?",
+        options: [
+          "a. To torment him",
+          "b. To humble him",
+          "c. To test his faith",
+          "d. To punish him",
+        ],
+        answer: "a",
+      },
+      {
+        question:
+          "What was God's response when Paul pleaded for the thorn to be removed?",
+        options: [
+          "a. God removed the thorn",
+          "b. God increased Paul's suffering",
+          "c. God's grace was sufficient",
+          "d. God rebuked Paul",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What does Paul say about his weaknesses?",
+        options: [
+          "a. They make him ashamed",
+          "b. They hinder his ministry",
+          "c. They demonstrate Christ's power",
+          "d. They disqualify him from apostleship",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "2corinthians-13",
+    id: "13",
+    verses: `
+    <h2>2 Corinthians 13:1-14</h2>
+    <p><strong>1 This will be my third visit to you. “Every matter must be established by the testimony of two or three witnesses.”</strong></p>
+    <p><strong>2 I already gave you a warning when I was with you the second time. I now repeat it while absent: On my return I will not spare those who sinned earlier or any of the others,</strong></p>
+    <p><strong>3 since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you.</strong></p>
+    <p><strong>4 For to be sure, he was crucified in weakness, yet he lives by God’s power. Likewise, we are weak in him, yet by God’s power we will live with him in our dealing with you.</strong></p>
+    <p><strong>5 Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Christ Jesus is in you—unless, of course, you fail the test?</strong></p>
+    <p><strong>6 And I trust that you will discover that we have not failed the test.</strong></p>
+    <p><strong>7 Now we pray to God that you will not do anything wrong—not so that people will see that we have stood the test but so that you will do what is right even though we may seem to have failed.</strong></p>
+    <p><strong>8 For we cannot do anything against the truth, but only for the truth.</strong></p>
+    <p><strong>9 We are glad whenever we are weak but you are strong; and our prayer is that you may be fully restored.</strong></p>
+    <p><strong>10 This is why I write these things when I am absent, that when I come I may not have to be harsh in my use of authority—the authority the Lord gave me for building you up, not for tearing you down.</strong></p>
+    <p><strong>11 Finally, brothers and sisters, rejoice! Strive for full restoration, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you.</strong></p>
+    <p><strong>12 Greet one another with a holy kiss.</strong></p>
+    <p><strong>13 All God’s people here send their greetings.</strong></p>
+    <p><strong>14 May the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with you all.</strong></p>
+  `,
+    question: [
+      {
+        question: "What does Paul warn the Corinthians about?",
+        options: [
+          "a. False teachings",
+          "b. Sins committed earlier",
+          "c. Divisions and quarrels",
+          "d. Impurity and debauchery",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul encourage the Corinthians to do?",
+        options: [
+          "a. Boast in their strength",
+          "b. Examine themselves",
+          "c. Seek worldly wisdom",
+          "d. Ignore his warnings",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul pray for the Corinthians?",
+        options: [
+          "a. That they will be proven right",
+          "b. That they will be weak",
+          "c. That they will be fully restored",
+          "d. That they will reject his authority",
+        ],
+        answer: "c",
+      },
+      {
+        question: "How does Paul end his letter?",
+        options: [
+          "a. With a warning",
+          "b. With a rebuke",
+          "c. With a prayer for peace",
+          "d. With a farewell greeting",
+        ],
+        answer: "d",
+      },
+    ],
+  },
+];
+
+const ephesians = [
+  {
+    quizId: "ephesians-1",
+    id: "1",
+    verses: `
+      <h2>Ephesians 1:1-23</h2>
+      <p><strong>1 Paul, an apostle of Christ Jesus by the will of God, to God's holy people in Ephesus, the faithful in Christ Jesus:</strong></p>
+      <p><strong>2 Grace and peace to you from God our Father and the Lord Jesus Christ.</strong></p>
+      <p><strong>3 Praise be to the God and Father of our Lord Jesus Christ, who has blessed us in the heavenly realms with every spiritual blessing in Christ.</strong></p>
+      <p><strong>4 For he chose us in him before the creation of the world to be holy and blameless in his sight. In love</strong></p>
+      <p><strong>5 he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—</strong></p>
+      <p><strong>6 to the praise of his glorious grace, which he has freely given us in the One he loves.</strong></p>
+      <p><strong>7 In him we have redemption through his blood, the forgiveness of sins, in accordance with the riches of God's grace</strong></p>
+      <p><strong>8 that he lavished on us. With all wisdom and understanding,</strong></p>
+      <p><strong>9 he made known to us the mystery of his will according to his good pleasure, which he purposed in Christ,</strong></p>
+      <p><strong>10 to be put into effect when the times reach their fulfillment—to bring unity to all things in heaven and on earth under Christ.</strong></p>
+      <p><strong>11 In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,</strong></p>
+      <p><strong>12 in order that we, who were the first to put our hope in Christ, might be for the praise of his glory.</strong></p>
+      <p><strong>13 And you also were included in Christ when you heard the message of truth, the gospel of your salvation. When you believed, you were marked in him with a seal, the promised Holy Spirit,</strong></p>
+      <p><strong>14 who is a deposit guaranteeing our inheritance until the redemption of those who are God's possession—to the praise of his glory.</strong></p>
+      <p><strong>15 For this reason, ever since I heard about your faith in the Lord Jesus and your love for all God's people,</strong></p>
+      <p><strong>16 I have not stopped giving thanks for you, remembering you in my prayers.</strong></p>
+      <p><strong>17 I keep asking that the God of our Lord Jesus Christ, the glorious Father, may give you the Spirit of wisdom and revelation, so that you may know him better.</strong></p>
+      <p><strong>18 I pray that the eyes of your heart may be enlightened in order that you may know the hope to which he has called you, the riches of his glorious inheritance in his holy people,</strong></p>
+      <p><strong>19 and his incomparably great power for us who believe. That power is the same as the mighty strength</strong></p>
+      <p><strong>20 he exerted when he raised Christ from the dead and seated him at his right hand in the heavenly realms,</strong></p>
+      <p><strong>21 far above all rule and authority, power and dominion, and every name that is invoked, not only in the present age but also in the one to come.</strong></p>
+      <p><strong>22 And God placed all things under his feet and appointed him to be head over everything for the church,</strong></p>
+      <p><strong>23 which is his body, the fullness of him who fills everything in every way.</strong></p>
+    `,
+    question: [
+      {
+        question: "What has God blessed us with in the heavenly realms?",
+        options: [
+          "a. Wealth and power",
+          "b. Every spiritual blessing in Christ",
+          "c. Wisdom and understanding",
+          "d. Peace and joy",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What did God predestine us for?",
+        options: [
+          "a. Eternal life",
+          "b. Adoption to sonship through Jesus Christ",
+          "c. To be apostles",
+          "d. To receive spiritual gifts",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What is the Holy Spirit described as?",
+        options: [
+          "a. A guide",
+          "b. A teacher",
+          "c. A deposit guaranteeing our inheritance",
+          "d. A comforter",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What is Paul's prayer for the Ephesians?",
+        options: [
+          "a. That they may be wealthy",
+          "b. That they may have power",
+          "c. That they may know God better",
+          "d. That they may receive miracles",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "ephesians-2",
+    id: "2",
+    verses: `
+      <h2>Ephesians 2:1-22</h2>
+      <p><strong>1 As for you, you were dead in your transgressions and sins,</strong></p>
+      <p><strong>2 in which you used to live when you followed the ways of this world and of the ruler of the kingdom of the air, the spirit who is now at work in those who are disobedient.</strong></p>
+      <p><strong>3 All of us also lived among them at one time, gratifying the cravings of our flesh and following its desires and thoughts. Like the rest, we were by nature deserving of wrath.</strong></p>
+      <p><strong>4 But because of his great love for us, God, who is rich in mercy,</strong></p>
+      <p><strong>5 made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved.</strong></p>
+      <p><strong>6 And God raised us up with Christ and seated us with him in the heavenly realms in Christ Jesus,</strong></p>
+      <p><strong>7 in order that in the coming ages he might show the incomparable riches of his grace, expressed in his kindness to us in Christ Jesus.</strong></p>
+      <p><strong>8 For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—</strong></p>
+      <p><strong>9 not by works, so that no one can boast.</strong></p>
+      <p><strong>10 For we are God’s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.</strong></p>
+      <p><strong>11 Therefore, remember that formerly you who are Gentiles by birth and called “uncircumcised” by those who call themselves “the circumcision” (which is done in the body by human hands)—</strong></p>
+      <p><strong>12 remember that at that time you were separate from Christ, excluded from citizenship in Israel and foreigners to the covenants of the promise, without hope and without God in the world.</strong></p>
+      <p><strong>13 But now in Christ Jesus you who once were far away have been brought near by the blood of Christ.</strong></p>
+      <p><strong>14 For he himself is our peace, who has made the two groups one and has destroyed the barrier, the dividing wall of hostility,</strong></p>
+      <p><strong>15 by setting aside in his flesh the law with its commands and regulations. His purpose was to create in himself one new humanity out of the two, thus making peace,</strong></p>
+      <p><strong>16 and in one body to reconcile both of them to God through the cross, by which he put to death their hostility.</strong></p>
+      <p><strong>17 He came and preached peace to you who were far away and peace to those who were near.</strong></p>
+      <p><strong>18 For through him we both have access to the Father by one Spirit.</strong></p>
+      <p><strong>19 Consequently, you are no longer foreigners and strangers, but fellow citizens with God’s people and also members of his household,</strong></p>
+      <p><strong>20 built on the foundation of the apostles and prophets, with Christ Jesus himself as the chief cornerstone.</strong></p>
+      <p><strong>21 In him the whole building is joined together and rises to become a holy temple in the Lord.</strong></p>
+      <p><strong>22 And in him you too are being built together to become a dwelling in which God lives by his Spirit.</strong></p>
+    `,
+    question: [
+      {
+        question: "How were we before God made us alive with Christ?",
+        options: [
+          "a. Dead in transgressions and sins",
+          "b. Righteous and holy",
+          "c. Full of good works",
+          "d. Enlightened and wise",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What is the gift of God that saves us?",
+        options: [
+          "a. Wealth and prosperity",
+          "b. Good works",
+          "c. Grace through faith",
+          "d. Wisdom and understanding",
+        ],
+        answer: "c",
+      },
+      {
+        question:
+          "What did Christ do to create peace between Jews and Gentiles?",
+        options: [
+          "a. Established new laws",
+          "b. Made them follow Jewish customs",
+          "c. Destroyed the barrier, the dividing wall of hostility",
+          "d. Gave them different roles in the church",
+        ],
+        answer: "c",
+      },
+      {
+        question: "What are Gentiles in Christ described as?",
+        options: [
+          "a. Foreigners and strangers",
+          "b. Fellow citizens and members of God's household",
+          "c. Slaves and servants",
+          "d. Outsiders and outcasts",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  {
+    quizId: "ephesians-3",
+    id: "3",
+    verses: `
+      <h2>Ephesians 3:1-21</h2>
+      <p><strong>1 For this reason I, Paul, the prisoner of Christ Jesus for the sake of you Gentiles—</strong></p>
+      <p><strong>2 Surely you have heard about the administration of God's grace that was given to me for you,</strong></p>
+      <p><strong>3 that is, the mystery made known to me by revelation, as I have already written briefly.</strong></p>
+      <p><strong>4 In reading this, then, you will be able to understand my insight into the mystery of Christ,</strong></p>
+      <p><strong>5 which was not made known to people in other generations as it has now been revealed by the Spirit to God's holy apostles and prophets.</strong></p>
+      <p><strong>6 This mystery is that through the gospel the Gentiles are heirs together with Israel, members together of one body, and sharers together in the promise in Christ Jesus.</strong></p>
+      <p><strong>7 I became a servant of this gospel by the gift of God's grace given me through the working of his power.</strong></p>
+      <p><strong>8 Although I am less than the least of all the Lord's people, this grace was given me: to preach to the Gentiles the boundless riches of Christ,</strong></p>
+      <p><strong>9 and to make plain to everyone the administration of this mystery, which for ages past was kept hidden in God, who created all things.</strong></p>
+      <p><strong>10 His intent was that now, through the church, the manifold wisdom of God should be made known to the rulers and authorities in the heavenly realms,</strong></p>
+      <p><strong>11 according to his eternal purpose that he accomplished in Christ Jesus our Lord.</strong></p>
+      <p><strong>12 In him and through faith in him we may approach God with freedom and confidence.</strong></p>
+      <p><strong>13 I ask you, therefore, not to be discouraged because of my sufferings for you, which are your glory.</strong></p>
+      <p><strong>14 For this reason I kneel before the Father,</strong></p>
+      <p><strong>15 from whom every family in heaven and on earth derives its name.</strong></p>
+      <p><strong>16 I pray that out of his glorious riches he may strengthen you with power through his Spirit in your inner being,</strong></p>
+      <p><strong>17 so that Christ may dwell in your hearts through faith. And I pray that you, being rooted and established in love,</strong></p>
+      <p><strong>18 may have power, together with all the Lord's holy people, to grasp how wide and long and high and deep is the love of Christ,</strong></p>
+      <p><strong>19 and to know this love that surpasses knowledge—that you may be filled to the measure of all the fullness of God.</strong></p>
+      <p><strong>20 Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us,</strong></p>
+      <p><strong>21 to him be glory in the church and in Christ Jesus throughout all generations, for ever and ever! Amen.</strong></p>
+    `,
+    question: [
+      {
+        question: "What is the mystery made known to Paul by revelation?",
+        options: [
+          "a. The end times",
+          "b. The inclusion of Gentiles in God's promise",
+          "c. The second coming of Christ",
+          "d. The building of the temple",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul pray for the Ephesians?",
+        options: [
+          "a. Strength through the Spirit in their inner being",
+          "b. Wealth and prosperity",
+          "c. Worldly wisdom",
+          "d. Long life",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What does Paul say about the love of Christ?",
+        options: [
+          "a. It is limited",
+          "b. It surpasses knowledge",
+          "c. It is conditional",
+          "d. It is only for the Jews",
+        ],
+        answer: "b",
+      },
+      {
+        question: "How does Paul describe God's ability?",
+        options: [
+          "a. Limited by our faith",
+          "b. Dependent on our actions",
+          "c. Able to do immeasurably more than we ask or imagine",
+          "d. Conditional on our obedience",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "ephesians-4",
+    id: "4",
+    verses: `
+      <h2>Ephesians 4:1-32</h2>
+      <p><strong>1 As a prisoner for the Lord, then, I urge you to live a life worthy of the calling you have received.</strong></p>
+      <p><strong>2 Be completely humble and gentle; be patient, bearing with one another in love.</strong></p>
+      <p><strong>3 Make every effort to keep the unity of the Spirit through the bond of peace.</strong></p>
+      <p><strong>4 There is one body and one Spirit, just as you were called to one hope when you were called;</strong></p>
+      <p><strong>5 one Lord, one faith, one baptism;</strong></p>
+      <p><strong>6 one God and Father of all, who is over all and through all and in all.</strong></p>
+      <p><strong>7 But to each one of us grace has been given as Christ apportioned it.</strong></p>
+      <p><strong>8 This is why it says: "When he ascended on high, he took many captives and gave gifts to his people."</strong></p>
+      <p><strong>9 (What does "he ascended" mean except that he also descended to the lower, earthly regions?</strong></p>
+      <p><strong>10 He who descended is the very one who ascended higher than all the heavens, in order to fill the whole universe.)</strong></p>
+      <p><strong>11 So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers,</strong></p>
+      <p><strong>12 to equip his people for works of service, so that the body of Christ may be built up</strong></p>
+      <p><strong>13 until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.</strong></p>
+      <p><strong>14 Then we will no longer be infants, tossed back and forth by the waves, and blown here and there by every wind of teaching and by the cunning and craftiness of people in their deceitful scheming.</strong></p>
+      <p><strong>15 Instead, speaking the truth in love, we will grow to become in every respect the mature body of him who is the head, that is, Christ.</strong></p>
+      <p><strong>16 From him the whole body, joined and held together by every supporting ligament, grows and builds itself up in love, as each part does its work.</strong></p>
+      <p><strong>17 So I tell you this, and insist on it in the Lord, that you must no longer live as the Gentiles do, in the futility of their thinking.</strong></p>
+      <p><strong>18 They are darkened in their understanding and separated from the life of God because of the ignorance that is in them due to the hardening of their hearts.</strong></p>
+      <p><strong>19 Having lost all sensitivity, they have given themselves over to sensuality so as to indulge in every kind of impurity, and they are full of greed.</strong></p>
+      <p><strong>20 That, however, is not the way of life you learned</strong></p>
+      <p><strong>21 when you heard about Christ and were taught in him in accordance with the truth that is in Jesus.</strong></p>
+      <p><strong>22 You were taught, with regard to your former way of life, to put off your old self, which is being corrupted by its deceitful desires;</strong></p>
+      <p><strong>23 to be made new in the attitude of your minds;</strong></p>
+      <p><strong>24 and to put on the new self, created to be like God in true righteousness and holiness.</strong></p>
+      <p><strong>25 Therefore each of you must put off falsehood and speak truthfully to your neighbor, for we are all members of one body.</strong></p>
+      <p><strong>26 "In your anger do not sin": Do not let the sun go down while you are still angry,</strong></p>
+      <p><strong>27 and do not give the devil a foothold.</strong></p>
+      <p><strong>28 Anyone who has been stealing must steal no longer, but must work, doing something useful with their own hands, that they may have something to share with those in need.</strong></p>
+      <p><strong>29 Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up according to their needs, that it may benefit those who listen.</strong></p>
+      <p><strong>30 And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption.</strong></p>
+      <p><strong>31 Get rid of all bitterness, rage and anger, brawling and slander, along with every form of malice.</strong></p>
+      <p><strong>32 Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.</strong></p>
+    `,
+    question: [
+      {
+        question: "What does Paul urge the Ephesians to do?",
+        options: [
+          "a. Live a life worthy of the calling they have received",
+          "b. Accumulate wealth and power",
+          "c. Follow the ways of the world",
+          "d. Seek wisdom and knowledge",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What should believers make every effort to keep?",
+        options: [
+          "a. Their traditions",
+          "b. The unity of the Spirit through the bond of peace",
+          "c. Their possessions",
+          "d. Their personal freedoms",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What roles did Christ give to equip his people for works of service?",
+        options: [
+          "a. Kings, judges, priests, and prophets",
+          "b. Apostles, prophets, evangelists, pastors, and teachers",
+          "c. Leaders, warriors, scribes, and healers",
+          "d. Elders, deacons, missionaries, and preachers",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What should believers do in their anger?",
+        options: [
+          "a. Take revenge",
+          "b. Let the sun go down while still angry",
+          "c. Do not sin",
+          "d. Hold grudges",
+        ],
+        answer: "c",
+      },
+    ],
+  },
+  {
+    quizId: "ephesians-5",
+    id: "5",
+    verses: `
+      <h2>Ephesians 5:1-33</h2>
+      <p><strong>1 Follow God's example, therefore, as dearly loved children</strong></p>
+      <p><strong>2 and walk in the way of love, just as Christ loved us and gave himself up for us as a fragrant offering and sacrifice to God.</strong></p>
+      <p><strong>3 But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for God's holy people.</strong></p>
+      <p><strong>4 Nor should there be obscenity, foolish talk or coarse joking, which are out of place, but rather thanksgiving.</strong></p>
+      <p><strong>5 For of this you can be sure: No immoral, impure or greedy person—such a person is an idolater—has any inheritance in the kingdom of Christ and of God.</strong></p>
+      <p><strong>6 Let no one deceive you with empty words, for because of such things God's wrath comes on those who are disobedient.</strong></p>
+      <p><strong>7 Therefore do not be partners with them.</strong></p>
+      <p><strong>8 For you were once darkness, but now you are light in the Lord. Live as children of light</strong></p>
+      <p><strong>9 (for the fruit of the light consists in all goodness, righteousness and truth)</strong></p>
+      <p><strong>10 and find out what pleases the Lord.</strong></p>
+      <p><strong>11 Have nothing to do with the fruitless deeds of darkness, but rather expose them.</strong></p>
+      <p><strong>12 It is shameful even to mention what the disobedient do in secret.</strong></p>
+      <p><strong>13 But everything exposed by the light becomes visible—and everything that is illuminated becomes a light.</strong></p>
+      <p><strong>14 This is why it is said: "Wake up, sleeper, rise from the dead, and Christ will shine on you."</strong></p>
+      <p><strong>15 Be very careful, then, how you live—not as unwise but as wise,</strong></p>
+      <p><strong>16 making the most of every opportunity, because the days are evil.</strong></p>
+      <p><strong>17 Therefore do not be foolish, but understand what the Lord's will is.</strong></p>
+      <p><strong>18 Do not get drunk on wine, which leads to debauchery. Instead, be filled with the Spirit,</strong></p>
+      <p><strong>19 speaking to one another with psalms, hymns, and songs from the Spirit. Sing and make music from your heart to the Lord,</strong></p>
+      <p><strong>20 always giving thanks to God the Father for everything, in the name of our Lord Jesus Christ.</strong></p>
+      <p><strong>21 Submit to one another out of reverence for Christ.</strong></p>
+      <p><strong>22 Wives, submit yourselves to your own husbands as you do to the Lord.</strong></p>
+      <p><strong>23 For the husband is the head of the wife as Christ is the head of the church, his body, of which he is the Savior.</strong></p>
+      <p><strong>24 Now as the church submits to Christ, so also wives should submit to their husbands in everything.</strong></p>
+      <p><strong>25 Husbands, love your wives, just as Christ loved the church and gave himself up for her</strong></p>
+      <p><strong>26 to make her holy, cleansing her by the washing with water through the word,</strong></p>
+      <p><strong>27 and to present her to himself as a radiant church, without stain or wrinkle or any other blemish, but holy and blameless.</strong></p>
+      <p><strong>28 In this same way, husbands ought to love their wives as their own bodies. He who loves his wife loves himself.</strong></p>
+      <p><strong>29 After all, no one ever hated their own body, but they feed and care for their body, just as Christ does the church—</strong></p>
+      <p><strong>30 for we are members of his body.</strong></p>
+      <p><strong>31 "For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh."</strong></p>
+      <p><strong>32 This is a profound mystery—but I am talking about Christ and the church.</strong></p>
+      <p><strong>33 However, each one of you also must love his wife as he loves himself, and the wife must respect her husband.</strong></p>
+    `,
+    question: [
+      {
+        question: "How are believers urged to live?",
+        options: [
+          "a. According to their desires",
+          "b. As children of light",
+          "c. In secrecy and fear",
+          "d. In wealth and prosperity",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What are believers instructed to avoid?",
+        options: [
+          "a. Fellowship with other believers",
+          "b. The fruitless deeds of darkness",
+          "c. Singing hymns and songs",
+          "d. Giving thanks to God",
+        ],
+        answer: "b",
+      },
+      {
+        question: "How should husbands love their wives?",
+        options: [
+          "a. As Christ loved the church",
+          "b. With a conditional love",
+          "c. As masters love their servants",
+          "d. Indifferently",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What is said about drunkenness?",
+        options: [
+          "a. It is acceptable",
+          "b. It leads to debauchery",
+          "c. It is a sign of strength",
+          "d. It is harmless",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+  {
+    quizId: "ephesians-6",
+    id: "6",
+    verses: `
+      <h2>Ephesians 6:1-24</h2>
+      <p><strong>1 Children, obey your parents in the Lord, for this is right.</strong></p>
+      <p><strong>2 "Honor your father and mother"—which is the first commandment with a promise—</strong></p>
+      <p><strong>3 "so that it may go well with you and that you may enjoy long life on the earth."</strong></p>
+      <p><strong>4 Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord.</strong></p>
+      <p><strong>5 Slaves, obey your earthly masters with respect and fear, and with sincerity of heart, just as you would obey Christ.</strong></p>
+      <p><strong>6 Obey them not only to win their favor when their eye is on you, but as slaves of Christ, doing the will of God from your heart.</strong></p>
+      <p><strong>7 Serve wholeheartedly, as if you were serving the Lord, not people,</strong></p>
+      <p><strong>8 because you know that the Lord will reward each one for whatever good they do, whether they are slave or free.</strong></p>
+      <p><strong>9 And masters, treat your slaves in the same way. Do not threaten them, since you know that he who is both their Master and yours is in heaven, and there is no favoritism with him.</strong></p>
+      <p><strong>10 Finally, be strong in the Lord and in his mighty power.</strong></p>
+      <p><strong>11 Put on the full armor of God, so that you can take your stand against the devil's schemes.</strong></p>
+      <p><strong>12 For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms.</strong></p>
+      <p><strong>13 Therefore put on the full armor of God, so that when the day of evil comes, you may be able to stand your ground, and after you have done everything, to stand.</strong></p>
+      <p><strong>14 Stand firm then, with the belt of truth buckled around your waist, with the breastplate of righteousness in place,</strong></p>
+      <p><strong>15 and with your feet fitted with the readiness that comes from the gospel of peace.</strong></p>
+      <p><strong>16 In addition to all this, take up the shield of faith, with which you can extinguish all the flaming arrows of the evil one.</strong></p>
+      <p><strong>17 Take the helmet of salvation and the sword of the Spirit, which is the word of God.</strong></p>
+      <p><strong>18 And pray in the Spirit on all occasions with all kinds of prayers and requests. With this in mind, be alert and always keep on praying for all the Lord's people.</strong></p>
+      <p><strong>19 Pray also for me, that whenever I speak, words may be given me so that I will fearlessly make known the mystery of the gospel,</strong></p>
+      <p><strong>20 for which I am an ambassador in chains. Pray that I may declare it fearlessly, as I should.</strong></p>
+      <p><strong>21 Tychicus, the dear brother and faithful servant in the Lord, will tell you everything, so that you also may know how I am and what I am doing.</strong></p>
+      <p><strong>22 I am sending him to you for this very purpose, that you may know how we are, and that he may encourage you.</strong></p>
+      <p><strong>23 Peace to the brothers and sisters, and love with faith from God the Father and the Lord Jesus Christ.</strong></p>
+      <p><strong>24 Grace to all who love our Lord Jesus Christ with an undying love.</strong></p>
+    `,
+    question: [
+      {
+        question: "What is the first commandment with a promise?",
+        options: [
+          "a. Do not steal",
+          "b. Honor your father and mother",
+          "c. Love your neighbor",
+          "d. Keep the Sabbath holy",
+        ],
+        answer: "b",
+      },
+      {
+        question:
+          "What should believers put on to stand against the devil's schemes?",
+        options: [
+          "a. The full armor of God",
+          "b. The garments of praise",
+          "c. The cloak of humility",
+          "d. The robe of righteousness",
+        ],
+        answer: "a",
+      },
+      {
+        question: "What is the sword of the Spirit?",
+        options: [
+          "a. Faith",
+          "b. The word of God",
+          "c. Prayer",
+          "d. Righteousness",
+        ],
+        answer: "b",
+      },
+      {
+        question: "What does Paul ask the Ephesians to pray for?",
+        options: [
+          "a. His release from prison",
+          "b. Boldness to make known the mystery of the gospel",
+          "c. Wealth and prosperity",
+          "d. Wisdom and understanding",
+        ],
+        answer: "b",
+      },
+    ],
+  },
+];
+
+export default ephesians;
