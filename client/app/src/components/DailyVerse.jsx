@@ -2,14 +2,16 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 const VerseDetail = ({ dataArray }) => {
-  const { id, quizId } = useParams();
-
-  console.log(quizId);
+  const { bookId, id } = useParams();
 
   // Find the selected verse from dataArray based on id
-  const selectedVerse = dataArray.find((verse) => verse.id === id);
 
-  console.log("this is ", selectedVerse.quizId);
+  const selectedBook = dataArray.find((book) => book.id === bookId);
+
+  console.log(selectedBook);
+  const selectedVerse = selectedBook.verses.find((verse) => verse.id === id);
+
+  console.log(bookId, "selected verese", selectedVerse);
 
   return (
     <div className="verse-detail">
@@ -28,10 +30,13 @@ const VerseDetail = ({ dataArray }) => {
       )}
 
       <div className="quiz-button-container">
-        <Link to={`/quiz/${id}`} className="quiz-button">
+        <Link to={`/quiz/${bookId}/${id}`} className="quiz-button">
           Go to Quiz
         </Link>
-        <Link to={`/comments/${selectedVerse.quizId}`} className="quiz-button">
+        <Link
+          to={`/comments/${bookId}/${selectedVerse.quizId}`}
+          className="quiz-button"
+        >
           Go to Comments
         </Link>
       </div>

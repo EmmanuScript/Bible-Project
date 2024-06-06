@@ -32,9 +32,9 @@ function Navbar() {
               Home
             </p>
           </li>
-          <li className="navbarListItem" onClick={() => navigate("/verses")}>
+          <li className="navbarListItem" onClick={() => navigate("/books")}>
             <OfferIcon
-              fill={pathMatchRoute("/verses") ? "#2c2c2c" : "#8f8f8f"}
+              fill={pathMatchRoute("/books") ? "#2c2c2c" : "#8f8f8f"}
               width="36px"
               height="36px"
             />
@@ -45,7 +45,7 @@ function Navbar() {
                   : "navbarListName"
               }
             >
-              Verses
+              Books
             </p>
           </li>
           <li className="navbarListItem" onClick={() => navigate("/profile")}>

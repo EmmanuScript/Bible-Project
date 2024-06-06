@@ -14,10 +14,12 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AppRoutes from "./Providers/AuthRoutes";
 import CommentList from "./pages/Comments";
+import BooksPage from "./pages/Books";
 
 // Assuming your VersePage component file name
 
 function App() {
+  console.log(bibleVerses);
   return (
     <AuthProvider>
       <Router>
@@ -34,22 +36,26 @@ function App() {
                     <Navbar />
                     <Routes>
                       <Route
-                        path="/verses"
+                        path="/books"
+                        element={<BooksPage booksArray={bibleVerses} />}
+                      />
+                      <Route
+                        path="/books/:id"
                         element={<VersePage dataArray={bibleVerses} />}
                       />
                       <Route
-                        path="/verse/:id"
+                        path="/books/:bookId/:id"
                         element={<VerseDetail dataArray={bibleVerses} />}
                       />
                       <Route
-                        path="/quiz/:id"
+                        path="/quiz/:bookId/:id"
                         element={<Quiz dataArray={bibleVerses} />}
                       />
 
                       <Route path="/home" element={<Home />} />
                       <Route
                         exact
-                        path="/comments/:id"
+                        path="/comments/:bookId/:id"
                         element={<CommentList />}
                       />
                       <Route path="/profile" element={<Profile />} />

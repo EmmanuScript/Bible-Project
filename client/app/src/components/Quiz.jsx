@@ -5,13 +5,16 @@ import { Modal, Button } from "react-bootstrap";
 import { DATA_URL } from "../config";
 import axios from "axios";
 import Cookies from "js-cookie";
-import galatiansVerses from "../verses";
+import books from "../verses";
 import SpinnerImage from "../assets/ZKZg.gif";
 
 const Quiz = ({ dataArray }) => {
-  const { id } = useParams();
+  const { bookId, id } = useParams();
+  const selectedBook = dataArray.find((book) => book.id === bookId);
+
+  console.log(selectedBook);
   const [verse, setVerse] = useState(
-    dataArray.find((verse) => verse.id === id)
+    selectedBook.verses.find((verse) => verse.id === id)
   );
   const [counter, setCounter] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -139,7 +142,11 @@ const Quiz = ({ dataArray }) => {
 
   const handleSeeAnswers = () => {
     // Find the verse based on the id parameter
-    const verseToUpdate = galatiansVerses.find((verse) => verse.id === id);
+    const bookToCheck = books.find((book) => book.id === bookId);
+
+    console.log(bookToCheck);
+
+    const verseToUpdate = bookToCheck.verses.find((verse) => verse.id === id);
 
     // Ensure verseToUpdate is found
     if (verseToUpdate) {

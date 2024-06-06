@@ -52,12 +52,13 @@ const Home = () => {
           src="https://www.clipartmax.com/png/middle/303-3033117_cross-and-bible-designed-logo-cross.png"
           alt="Dashboard"
         />
+
+        <h3 className="header-text">Welcome {user.name}</h3>
       </header>
       <main className="dash-main">
         <h2>Starhub Bible Study App</h2>
-        <h3>Welcome {user.name}</h3>
-        <h4>Verse for the day</h4>
-        <h4>{verse.reference}</h4>
+
+        <h4>Verse for the day - {verse.reference}</h4>
         <p>{verse.text}</p>
         <div className="home-video">
           <iframe
@@ -67,7 +68,7 @@ const Home = () => {
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="flex-col-1">

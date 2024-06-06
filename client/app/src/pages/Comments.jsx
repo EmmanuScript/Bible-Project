@@ -9,11 +9,14 @@ import "react-toastify/dist/ReactToastify.css";
 import SpinnerImage from "../assets/ZKZg.gif";
 
 const CommentList = ({ verseId }) => {
-  const { id } = useParams();
+  const { bookId, id } = useParams();
+
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(true); // Set loading state to true initially
   const [commentText, setCommentText] = useState(""); // State to store the user's comment
   const [userComment, setUserComment] = useState(null); // State to store user's existing comment, if any
+
+  console.log(bookId, id);
 
   useEffect(() => {
     // Fetch comments data from the API

@@ -296,6 +296,14 @@ button {
   width: 100%;
 }
 
+@media (max-width: 1217px) {
+  .header-text {
+    width: 150px;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+}
+
 .registerLink {
   margin-top: 4rem;
   color: #00cc66;
@@ -883,6 +891,19 @@ button {
   justify-content: center; /* Center the grid horizontally */
 }
 
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(120px, 2fr)
+  ); /* 2 columns with flexible width */
+  gap: 20px; /* Gap between grid items */
+  max-width: 9000px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center; /* Center the grid horizontally */
+}
+
 .verse-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -891,8 +912,18 @@ button {
 
 .verse {
   background-color: #f0f0f0; /* Background color for each card */
+  font-weight: 500;
   padding: 20px;
   margin-bottom: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+}
+
+.verse-today {
+  background-color: black; /* Background color for each card */
+  padding: 20px;
+  margin-bottom: 60px;
+  color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the card */
 }
@@ -1114,7 +1145,7 @@ button {
 .flex-col-1 {
   display: flex;
   margin-bottom: 5em;
-  margin-top: 2em;
+  margin-top: 0em;
 }
 
 .card-container {
